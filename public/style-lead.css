@@ -1,0 +1,278 @@
+/* Colors */
+
+.res-select-city::after, .res-select-gym::after, .res-title::after,
+.res-btn-primary, .res-button-primary,
+.res-trainings .res-city-title,
+.res-schedule .res-subscribe, .res-subscribe .res-back,
+.res-training .res-subscribe,
+.res-thank-you .res-download,
+.res-subscribe .res-submit {
+    background-color: #7a0000;
+}
+
+.res-button, .res-btn-outline-primary, .res-btn-primary, .res-thank-you .res-success {
+    border-color: #7a0000;
+}
+
+.res-thank-you .res-success p {
+    color: #7a0000;
+}
+
+.res-btn:hover {
+    color: #aaaaaa;
+}
+
+.res-btn.disabled, .res-btn.res-btn-disabled {
+    background-color: #696969;
+    border-color: #696969;
+}
+
+.res-gym-name {
+    font-weight: normal !important;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 0 !important;
+    margin-bottom: 15px;
+}
+
+.res-container .res-city-name {
+    clear: none;
+    font-weight: 700 !important;
+    margin-bottom: 5px;
+}
+
+.res-btn {
+    color: #000;
+}
+
+.res-btn-primary {
+    color: #fff;
+}
+
+/* Schedule */
+
+.res-schedule .res-schedule-table thead th span {
+    display: none;
+}
+
+.res-subscribe input[type=date], .res-subscribe input[type=tel] {
+	font-size: 13px;
+    color: #767676;
+    background-color: #fdfdfd;
+    border: 1px solid #e3e3e3;
+    outline: 0;
+    margin-bottom: 4px;
+    height: 32px;
+    box-sizing: border-box;
+}
+
+.res-schedule .res-group-1 {
+    background: #7a0000;
+}
+
+.res-schedule .res-group-2 {
+    background: #9D5316;
+}
+
+.res-schedule .res-group-3 {
+    background: #1F7474;
+}
+
+.res-schedule .res-group-4 {
+    background: #127E12;
+}
+
+.res-schedule .res-group-5 {
+    background: #e00e1d;
+}
+
+.res-schedule .res-group-6 {
+    background: #0ceff7;
+}
+
+.res-schedule .res-group-7 {
+    background: #6ef316;
+}
+
+.res-schedule .res-group-8 {
+    background: #f316e1;
+}
+
+.res-schedule .res-group-9 {
+    background: #b70ec4;
+}
+
+.res-schedule .res-group-10 {
+    background: #d1e215;
+}
+
+.res-schedule .res-group-11 {
+    background: #4bd913;
+}
+
+.res-schedule .res-group-12 {
+    background: #97aeba;
+}
+
+.res-schedule .res-group-13 {
+    background: #a0ab6b;
+}
+
+.res-schedule .res-group-14 {
+    background: #5ac0d3;
+}
+
+.res-schedule .res-group-15 {
+    background: #728c22;
+}
+
+.res-schedule .res-group-16 {
+    background: #073395;
+}
+
+.res-schedule .res-event-capacity {
+    line-height: 1.4;
+}
+
+/* Subscribe */
+
+.res-subscribe .res-spam-notice {
+    border-color: #7a0000;
+}
+
+.res-subscribe select {
+	padding: 9px 5px 8px !important;
+    width: 100% !important;
+}
+
+.res-subscribe textarea[name=health_restrictions] {
+    min-height: 108px;
+}
+
+.res-subscribe input, .res-subscribe textarea, .res-subscribe select {
+	box-sizing: border-box;
+}
+
+.res-subscribe input[type=checkbox] {
+    margin-right: 5px;
+}
+
+.res-subscribe .res-back {
+    display: none;
+}
+
+.res-subscribe sup {
+    top: -3px;
+    margin-left: 1px;
+}
+
+.res-subscribe .res-subscription h4 {
+    font-size: 16px;
+    text-transform: none;
+}
+
+.res-subscribe .res-subscription p {
+    font-size: 14px;
+}
+
+.res-subscribe .privacy-policy h4 {
+    font-size: 1.1em;
+}
+
+.res-subscribe .privacy-policy p {
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+.res-subscribe .res-trainings-list {
+    margin-top: -10px;
+}
+
+.res-thank-you .res-status {
+    line-height: 1.7;
+}
+
+.res-thank-you .res-message p {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.res-subscribe .res-account .res-field .res-btn {
+    padding: 1px 25px 1px;
+    font-size: 0.85em;
+}
+
+.res-subscribe .res-account .res-logout {
+    font-size: 0.85em;
+    padding: 2px 15px;
+}
+
+/* Training */
+
+.res-training .res-subscribe {
+    background: rgb(122, 0, 0);
+}
+
+/* Events */
+
+/*.res-events .res-event-summary .res-buttons a,
+.res-events .res-event-summary .res-buttons button {
+    line-height: inherit !important;
+    padding: 10px 25px !important;
+    text-transform: none;
+}*/
+
+.res-events .res-event-list-title, .res-events .res-event-list-title-filtered {
+    margin: 3rem 0 2rem 0;
+}
+
+.res-events .res-event-types {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.res-events .res-event-types li {
+    list-style: none;
+    margin: 0;
+    padding: .5rem 5px 2rem;
+}
+
+.res-events .res-event-types a {
+    text-transform: none;
+    font-size: 1.0em;
+    background-color: #696969;
+}
+
+.res-events .res-event-types li.res-active a {
+    background-color: #7a0000;
+}
+
+.res-events .res-event-summary .res-subscribe {
+    min-width: 140px;
+}
+
+
+.res-events .res-back {
+    margin: 0;
+}
+
+/* Trainings */
+
+.res-trainings .res-gym-list .res-gym .res-buttons {
+    max-width: 255px;
+}
+
+.res-trainings .res-gym-list .res-gym h3 {
+    font-size: 1.1em;
+}
+
+.res-trainings h2 {
+    margin: 3rem 0 2rem 0;
+}
+
+.res-trainings .res-back {
+    margin: 0;
+}

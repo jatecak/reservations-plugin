@@ -1,0 +1,1004 @@
+.res-select-city, .res-select-gym, .res-title {
+	text-align: center;
+    font-size: 50px;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+.res-select-city::after, .res-select-gym::after, .res-title::after{
+	background: #BD1F34;
+    height: 3px;
+    width: 50px;
+    margin: 15px auto;
+	content:"";
+	display:block;
+}
+.res-container {
+	max-width: 1000px;
+	margin:auto;
+}
+.res-center {
+    clear: both;
+    text-align: center;
+}
+.res-hidden {
+    display: none;
+}
+
+.res-btn {
+    display: inline-block;
+    text-align: center;
+    padding: 8px 25px;
+    text-decoration: none;
+    font: inherit;
+    font-weight: bold;
+    cursor: pointer;
+    background: transparent;
+    vertical-align: middle;
+}
+
+.res-btn-outline-primary {
+    border: 2px solid #BD1F34;
+    color: #000;
+}
+
+.res-btn-primary {
+    color: #fff;
+    background: #BD1F34;
+    border: 2px solid #BD1F34;
+}
+
+.res-btn-primary.disabled:hover, .res-btn-primary.res-btn-disabled:hover {
+    color: #fff;
+}
+
+.res-btn-lg {
+    padding: 15px 35px;
+    font-size: 20px;
+}
+
+.res-btn-secondary, .res-btn.disabled, .res-btn.res-btn-disabled {
+    background-color: #6b748b;
+    border-color: #6b748b;
+    color: #fff;
+}
+
+.res-btn.disabled, .res-btn.res-btn-disabled {
+    cursor: default;
+}
+
+.res-button {
+    display: inline-block;
+    text-align:center;
+    padding: 10px 35px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #333;
+    background: #fff;
+    font-weight: bold;
+    border: 2px solid #BD1F34;
+    cursor: pointer;
+}
+
+.res-button-primary {
+    display: inline-block;
+    text-align:center;
+    padding: 15px 35px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+    background: #BD1F34;
+    font-weight: bold;
+    border: 0;
+    cursor: pointer;
+}
+
+.res-button-primary:hover{
+    opacity: 0.8;
+}
+
+.res-city-name {
+    margin: 0 0 5px 0;
+    font-size: 1.7em;
+    line-height: 1.2em;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.res-gym-name {
+    margin-top: 5px;
+    font-size: 1.3em;
+    line-height: 1.2em;
+    filter: brightness(165%);
+}
+
+/* Trainings */
+
+.res-trainings .res-map {
+    width: 100%;
+    height: 500px;
+    margin-bottom: 15px;
+}
+
+.res-trainings h2 {
+    margin-top: 0;
+	position:relative;
+}
+
+.res-trainings .res-back {
+	position:absolute;
+	left:10px;
+	font-size:20px;
+    margin: 16px 0;
+    padding: 7px 15px;
+	color:#000;
+	text-decoration:none;
+}
+.res-trainings .res-back::before{
+	content:"« ";
+	display:inline-block;
+    margin-right: 3px;
+}
+.res-trainings .res-back:hover{
+	text-decoration: underline;
+}
+
+.res-trainings .res-gym-list {
+    padding: 0;
+    list-style: none;
+}
+
+.res-trainings .res-gym-list li {
+    display: block;
+}
+
+.res-trainings .res-gym-list .res-city {
+    margin-top: 15px;
+}
+
+.res-trainings .res-city-title {
+    color: #fff;
+    background: #BD1F34;
+    display: block;
+    padding: 15px 25px;
+    text-transform: uppercase;
+    font-size: 1.1em;
+}
+
+.res-trainings .res-city-gyms {
+    margin: 0;
+    padding: 0 10px;
+    display: none;
+}
+
+.res-trainings .res-gym-list .res-gym {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.res-trainings .res-gym-list .res-gym:last-child {
+    margin-bottom: 0;
+}
+
+.res-trainings .res-gym-list .res-gym h3 {
+    margin: 0;
+    padding: 0;
+    flex: 2;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.res-trainings .res-gym-list .res-gym .res-buttons {
+    flex: 2;
+    max-width: 250px;
+}
+
+.res-trainings .res-gym-list .res-gym .res-age-groups {
+    padding: 0 5px;
+    flex: 1;
+}
+
+/* Schedule */
+
+.res-schedule .res-subscribe {
+	display: block;
+	margin-bottom:10px;
+	text-align:center;
+	padding: 15px 35px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+    background: #BD1F34;
+    font-weight: bold;
+}
+
+.res-schedule .res-subscribe:hover{
+	opacity:0.8;
+}
+
+.res-schedule .res-schedule-table {
+    /*border-spacing: 2px;*/
+    table-layout: fixed;
+	width: 100%;
+
+    margin-left: calc(-4px);
+    margin-right: calc(-4px);
+    width: calc(100% + 8px);
+}
+
+.res-schedule .res-schedule-table th, .res-schedule .res-schedule-table td {
+    border: 2px solid #fff;
+    font-size: 1em;
+    vertical-align: middle;
+}
+
+.res-schedule .res-schedule-table th {
+    background: #f0f0f0;
+    text-align: left;
+    font-weight: normal;
+    padding: 25px 15px;
+}
+
+.res-schedule .res-schedule-table thead th {
+    font-weight: bold;
+    text-align: center;
+    padding: 5px 10px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    line-height: 1.4;
+}
+
+.res-schedule .res-schedule-table thead th span {
+    display: block;
+    text-align: center;
+    font-weight: normal;
+    margin-top: 3px;
+}
+
+.res-schedule .res-time {
+    width: 85px;
+}
+
+.res-schedule .res-event {
+    text-align: center;
+    padding: 5px;
+    overflow: hidden;
+}
+
+.res-schedule tr {
+    height: 51px;
+}
+
+.res-schedule tr.dark {
+    background: #f0f0f0;
+}
+
+.res-schedule .res-event h3 {
+    font-size: 0.95em;
+    line-height: 1.3em;
+    margin: 0 0 5px;
+    padding: 0;
+    color: #fff;
+}
+
+.res-schedule .res-event .res-event-time {
+    font-size: 0.9em;
+}
+
+.res-schedule .res-event a {
+    text-decoration: none !important;
+    display: inline-block;
+    border: 0 !important;
+    box-shadow: none !important;
+    color: #fff;
+    margin: -10em;
+    padding: 10em;
+}
+
+.res-schedule .res-event a:hover {
+    color: #f0f0f0;
+}
+
+.res-schedule .res-group-1 {
+    background: #C76221;
+}
+
+.res-schedule .res-group-2 {
+    background: #157F6A;
+}
+
+.res-schedule h4 {
+    font-weight: bold;
+}
+
+.res-schedule .res-legend {
+    overflow: hidden;
+}
+
+.res-schedule .res-legend dt {
+    float: left;
+    width: 25px;
+    height: 17px;
+    clear: both;
+    margin: 1px 8px 2px 0;
+}
+
+.res-schedule .res-legend dd {
+    display: block;
+    font-size: 0.9em;
+    margin: 0 0 5px;
+}
+
+.res-schedule .res-legend-2 {
+    overflow: hidden;
+    margin: 15px 0 3px 2px;
+}
+
+.res-schedule .res-legend-2 dt {
+    float: left;
+    width: 25px;
+    height: 17px;
+    margin: 1px 8px 2px 0;
+}
+
+.res-schedule .res-legend-2 dd {
+    float: left;
+    font-size: 0.9em;
+    margin: 0 15px 0 0;
+    padding: 0;
+    line-height: 1.4;
+}
+
+.res-schedule .res-free-capacity {
+    float: right;
+    padding: 0;
+    margin: 1px 0 3px 0;
+}
+
+.res-schedule .res-free-capacity span::after {
+    content: ", ";
+}
+
+.res-schedule .res-free-capacity span:last-child::after {
+    content: "";
+}
+
+/* Subscribe */
+
+.res-subscribe h3, .res-subscribe h4 {
+    clear: both;
+}
+
+.res-subscribe h3 {
+    margin-top: 0;
+    padding-top: 5px;
+}
+
+.res-subscribe .res-city-name {
+    clear: none;
+}
+
+.res-subscribe .res-spam-notice {
+    border: 1px solid #000;
+    padding: 5px 15px;
+    margin: 15px 0;
+}
+
+.res-subscribe label {
+    display: block;
+    font-size: 0.9em;
+    margin: 0;
+}
+
+.res-subscribe input, .res-subscribe textarea, .res-subscribe select {
+    display: block;
+    width: 100%;
+    padding: 8px 5px;
+    /*border: 1px solid #b3b3b3;*/
+}
+
+.res-subscribe input[type=date] {
+    padding: 6px 5px;
+}
+
+.res-subscribe input[type=checkbox] {
+    display: inline-block;
+    width: auto;
+    vertical-align: baseline;
+}
+
+.res-subscribe label {
+    margin-bottom: 3px;
+}
+
+.res-subscribe label.res-checkbox {
+    margin-bottom: 15px;
+}
+
+.res-subscribe .res-field {
+    width: 33.333%;
+    float: left;
+    padding: 0 10px 15px 0;
+}
+
+.res-subscribe .res-field-2 {
+    width: 66.666%;
+}
+
+.res-subscribe .res-field-3 {
+    width: 100%;
+}
+
+.res-subscribe .res-field-50 {
+    width: 50%;
+}
+
+.res-subscribe h4 {
+    margin: 0 0 5px 0;
+}
+
+.res-subscribe .res-trainings-list .res-tl-gym-name {
+    font-weight: bold;
+}
+
+.res-subscribe .res-description {
+    font-size: 0.9em;
+    margin: 0 0 5px 0 !important;
+}
+
+.res-subscribe .res-subscription {
+    display: block;
+    overflow: hidden;
+    margin: 0 0 15px;
+    cursor: pointer;
+}
+
+.res-subscribe .res-subscription input[type=radio] {
+    float: left;
+    display: inline-block;
+    width: auto;
+    margin: 7px 8px 33px 0;
+}
+
+.res-subscribe .res-subscription .res-right {
+    float: right;
+}
+
+.res-subscribe .res-subscription .res-price {
+    text-align: right;
+}
+
+.res-subscribe .res-subscription .res-price-initial {
+    display: inline-block;
+}
+
+.res-subscribe .res-subscription .res-price-total {
+    font-weight: normal;
+    position: relative;
+    top: 5px;
+}
+
+.res-subscribe .res-subscription h4 {
+    clear: none;
+    margin: 0;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 2px 0 0 0;
+}
+
+.res-subscribe .res-subscription p {
+    font-weight: normal;
+    margin: 0;
+}
+
+.res-subscribe .res-num-months {
+    display: inline-block;
+    width: 50px;
+    margin: 0 2px;
+    padding: 0px 2px;
+    height: 1.6em;
+}
+
+.res-subscribe .res-clear {
+    clear: both;
+}
+
+.res-subscribe .res-submit {
+	display:block;
+	margin:20px 0;
+	text-align:center;
+	padding: 15px 35px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+    background: #4ab514;
+    font-weight: bold;
+	border:0;
+	cursor:pointer;
+	width:100%;
+    box-shadow: none;
+}
+.res-subscribe .res-submit:hover{
+	opacity:0.8;
+}
+
+.res-subscribe .res-submit[disabled] {
+    background: #ccc;
+    cursor: not-allowed;
+}
+
+.res-subscribe .res-submit[disabled]:hover {
+    opacity: 1;
+}
+
+.res-subscribe .res-submit.res-submit-replacement-enabled {
+    display: none !important;
+}
+
+.res-subscribe .res-submit-replacement {
+    display:block;
+    margin:24px 0;
+    text-align:center;
+    padding: 11px 30px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    background: #a9a9a9;
+    font-weight: bold;
+    border:0;
+    cursor:pointer;
+    width:100%;
+    box-shadow: none;
+}
+.res-subscribe .res-submit-replacement:hover{
+    opacity:0.8;
+}
+
+.res-subscribe .res-back {
+    display:block;
+	margin-bottom:10px;
+	text-align:center;
+	padding: 15px 35px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+    background: #BD1F34;
+    font-weight: bold;
+}
+
+.res-subscribe .res-info, .res-subscribe .privacy-policy {
+    font-size: 0.85em;
+    line-height: 1.5em;
+    clear: both;
+    padding: 0;
+    margin: 0 0 10px !important;
+}
+
+.res-subscribe .privacy-policy label {
+    font-size: 1.059em;
+    margin-bottom: 15px;
+}
+
+.res-subscribe .res-info.res-info-normal {
+    font-size: 0.95em;
+}
+
+.res-subscribe .res-over-capacity, .res-subscribe .res-start-date-invalid, .res-subscribe .res-end-date-invalid {
+    clear: both;
+    margin: 0 0 15px 0 !important;
+    font-weight: bold;
+    color: #c91414;
+}
+
+.res-subscribe .res-fees-notice {
+    text-align: center;
+    margin-bottom: 20px !important;
+}
+
+.res-subscribe .res-errors {
+    color: #d40000;
+    margin: 15px 0 15px;
+    font-weight: 500;
+}
+
+.res-subscribe textarea {
+    min-height: 127px;
+}
+
+.res-subscribe input[name=referrer_other], .res-subscribe input[name=reason_other] {
+    margin-top: 5px;
+    display: none;
+}
+
+.res-subscribe .res-logos {
+    text-align: center;
+}
+
+.res-subscribe .res-logos img {
+    vertical-align: middle;
+    margin: 0 2px;
+}
+
+.res-subscribe p.res-section-description, .res-subscribe div.res-section-description p {
+    margin: -10px 0 20px 0;
+    font-size: 0.9em;
+}
+
+.res-subscribe .res-info.res-info-normal {
+    font-size: 0.9em;
+}
+
+.res-subscribe .privacy-policy h4 {
+    font-size: 1.4em;
+    margin: 0 0 10px 0;
+    padding: 0;
+}
+
+.res-subscribe .privacy-policy input {
+    width: auto;
+    display: inline-block;
+}
+
+.res-subscribe .res-account {
+    margin: 0 0 15px;
+    padding: 10px 15px;
+    border: 2px solid #000;
+    overflow: hidden;
+}
+
+.res-subscribe .res-account h3 {
+    clear: none;
+}
+
+.res-subscribe .res-account .res-logout {
+    float: right;
+}
+
+.res-subscribe .res-account .res-field .res-btn {
+    padding: 5px 25px 6px;
+}
+
+.res-subscribe .res-account .res-lost-password {
+    white-space: nowrap;
+    vertical-align: middle;
+}
+
+
+/* Training */
+
+.res-training h2 {
+    margin: 0 0 15px;
+    font-size: 2em;
+    line-height: 1.2em;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.res-training .res-time {
+    margin: 5px 0 10px !important;
+    font-size: 1.2em;
+}
+
+.res-training h3 {
+    margin: 15px 0 5px 0;
+}
+
+.res-training .res-gym {
+    margin: 0 0 10px !important;
+}
+
+.res-training .res-address {
+    border: 1px solid #333;
+    padding: 5px 14px;
+    display: inline-block;
+    color: #333;
+    margin: 0 0 0 15px !important;
+}
+
+.res-training .res-instructors {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.res-training .res-description {
+    margin: 15px 0 0 0 !important;
+}
+
+.res-training .res-contact {
+    margin: 0 !important;
+}
+
+.res-training .res-price-single, .res-training .res-age-group {
+    margin: 0 !important;
+}
+
+.res-training .res-subscribe-container {
+    float: right;
+    text-align: center;
+}
+
+.res-training .res-event-capacity {
+    font-weight: bold;
+}
+
+.res-training .res-subscribe {
+    display: inline-block;
+    margin-bottom:10px;
+    text-align:center;
+    padding: 15px 35px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+    background: #BD1F34;
+    font-weight: bold;
+}
+
+.res-training .res-subscribe:hover{
+    opacity: 0.8;
+}
+
+
+/* Thank You */
+
+.res-thank-you .res-message {
+    font-size: 1.5em;
+    margin: 0 0 30px 0;
+    padding: 25px 35px;
+    border: 2px solid;
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.res-thank-you .res-success {
+    border-color: green;
+    color: green;
+}
+
+.res-thank-you .res-error {
+    border-color: red;
+    color: red;
+}
+
+.res-thank-you .res-message p {
+    margin: 0 !important;
+    padding: 0;
+}
+
+.res-thank-you .res-status, .res-thank-you .res-spam-notice {
+    text-align: center;
+}
+
+.res-thank-you .res-download {
+    display: inline-block;
+    margin: 5px 0 0 0;
+    text-align:center;
+    padding: 15px 35px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+    background: #BD1F34;
+    font-weight: bold;
+}
+
+.res-thank-you .res-download:hover{
+    opacity:0.8;
+}
+
+/* Events */
+
+.res-events .res-map {
+    width: 100%;
+    height: 500px;
+    margin-bottom: 15px;
+}
+
+.res-events .res-event-list {
+    padding: 0;
+}
+
+.res-events .res-event-list-title-filtered {
+    position: relative;
+}
+
+.res-events .res-event-list > li {
+    display: block;
+    margin: 0 0 15px;
+    padding: 10px 15px;
+    border: 2px solid #000;
+}
+
+.res-events .res-event-summary {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.res-events .res-event-summary h3 {
+    margin: 0;
+    padding: 0;
+    flex: 2;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.res-events .res-event-summary .res-location,
+.res-events .res-event-summary .res-date {
+    padding: 0 10px;
+    flex: 1;
+    white-space: nowrap;
+}
+
+.res-events .res-event-summary .res-buttons {
+
+}
+
+/*.res-events .res-event-summary .res-buttons a,
+.res-events .res-event-summary .res-buttons button {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    background: #BD1F34;
+    padding: 10px 25px;
+    border: 0;
+    font: inherit;
+    font-weight: bold;
+    margin-left: 3px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 0;
+}
+
+.res-events .res-event-summary .res-buttons a.btn-disabled,
+.res-events .res-event-summary .res-buttons button.btn-disabled {
+    background-color: #6b748b;
+}*/
+
+.res-events .res-time,
+.res-events .res-address,
+.res-events .res-camp-type {
+    font-weight: inherit;
+    display: block;
+    margin: 0 0 10px 0;
+}
+
+.res-events .res-event-expanded {
+    display: none;
+    flex-direction: row;
+    padding: 25px 5px;
+    border-top: 1px solid #000;
+    margin-top: 10px;
+}
+
+.res-events .res-info-left {
+    flex: 1;
+    padding-right: 10px;
+}
+
+.res-events .res-info-right {
+    flex: 1;
+    padding-left: 10px;
+}
+
+.res-events .res-info-right h4 {
+    font-weight: bold;
+    margin: 15px 0 5px 0;
+    font-size: 1.3em;
+    padding-top: 0;
+}
+
+.res-events .res-info-right h4:first-of-type {
+    margin-top: 0;
+}
+
+.res-events .res-info-right .res-price {
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+.res-events .res-info-right .res-price h4 {
+    font-size: 1em;
+    padding: 0;
+    margin: 0 0 10px 0;
+}
+
+.res-events .res-price strong {
+    display: block;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.res-events .res-info-right address,
+.res-events .res-info-right p,
+.res-events .res-info-right > strong {
+    font-style: normal;
+    margin: 0 0 10px 0;
+    padding: 0;
+}
+
+
+/*.res-trainings h2 {
+    margin-top: 0;
+    position:relative;
+}
+*/
+.res-events .res-back {
+    position: absolute;
+    left: 10px;
+    font-size: 20px;
+    margin: 16px 0;
+    padding: 7px 15px;
+    color: #000;
+    text-decoration:none;
+}
+
+.res-events .res-back::before{
+    content: "« ";
+    display: inline-block;
+    margin-right: 3px;
+}
+
+.res-events .res-back:hover{
+    text-decoration: underline;
+}
+
+/* Payment */
+
+.res-payment table {
+    text-align: left;
+}
+
+.res-payment table td,
+.res-payment table th {
+    padding: 2px 5px 2px 0;
+}
+
+.res-payment .res-payment-status {
+    border: 1px solid #ccc;
+    padding: 20px 25px;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 1.1em;
+}
+
+.res-payment .res-payment-status h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.res-payment .res-pay {
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+/* Password Form */
+
+.res-password-form input {
+    padding: 8px 5px;
+}
+
+.res-password-form label {
+    font-weight: bold;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.res-password-form .fields-wrap {
+    border: 1px solid #ccc;
+    padding: 20px 25px;
+    display: inline-block;
+}
+
+.res-password-form button {
+    padding: 5px 15px;
+    font-size: 15px;
+    border: 2px solid currentColor;
+    vertical-align: middle;
+    position: relative;
+    top: 1px;
+}

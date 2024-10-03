@@ -1,0 +1,3917 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2021-04-06 12:40+0200\n"
+"PO-Revision-Date: 2021-04-06 12:40+0200\n"
+"Last-Translator: Martin Prokopič <martin@prokopic.tk>\n"
+"Language-Team: \n"
+"Language: cs_CZ\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c;_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: admin\n"
+"X-Poedit-SearchPath-1: lib\n"
+"X-Poedit-SearchPath-2: public\n"
+"X-Poedit-SearchPath-3: reservations.php\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: *.css\n"
+
+#: lib/Reservations.php:38 lib/Reservations/Utils/Html.php:117
+msgid "Without city"
+msgstr "Bez přiřazeného města"
+
+#: lib/Reservations.php:92
+msgid "6-9 years"
+msgstr "6-9 let"
+
+#: lib/Reservations.php:97
+msgid "10-13 years"
+msgstr "10-13 let"
+
+#: lib/Reservations.php:102
+msgid "14+ years"
+msgstr "14+ let"
+
+#: lib/Reservations.php:107
+msgid "Adults"
+msgstr "Dospělí"
+
+#: lib/Reservations.php:112
+msgid "Mix"
+msgstr "Mix"
+
+#: lib/Reservations.php:122
+msgid "Beginners"
+msgstr "Začátečníci"
+
+#: lib/Reservations.php:129
+msgid "Intermediate"
+msgstr "Středně pokročilí"
+
+#: lib/Reservations.php:136
+msgid "Advanced"
+msgstr "Pokročilí"
+
+#: lib/Reservations.php:145 public/schedule.php:57
+msgid "Junior"
+msgstr "Mladší"
+
+#: lib/Reservations.php:150 public/schedule.php:59
+msgid "Mature"
+msgstr "Starší"
+
+#: lib/Reservations.php:166 lib/Reservations.php:186
+msgid "Workshop"
+msgstr "Event"
+
+#: lib/Reservations.php:167 lib/Reservations.php:187
+msgid "Workshops"
+msgstr "Eventy"
+
+#: lib/Reservations.php:168 lib/Reservations.php:188
+msgid "Workshop List"
+msgstr "Seznam eventů"
+
+#: lib/Reservations.php:169 lib/Reservations.php:189
+#, php-format
+msgid "Workshops in %s"
+msgstr "Eventy ve městě %s"
+
+#: lib/Reservations.php:170 lib/Reservations.php:190
+msgid "No workshops."
+msgstr "Nebyly nalezeny žádné eventy."
+
+#: lib/Reservations.php:174 lib/Reservations.php:194
+msgid "Camp"
+msgstr "Camp"
+
+#: lib/Reservations.php:175 lib/Reservations.php:195
+msgid "Camps"
+msgstr "Campy"
+
+#: lib/Reservations.php:176 lib/Reservations.php:196
+msgid "Camp List"
+msgstr "Seznam campů"
+
+#: lib/Reservations.php:177 lib/Reservations.php:197
+#, php-format
+msgid "Camps in %s"
+msgstr "Campy ve městě %s"
+
+#: lib/Reservations.php:178 lib/Reservations.php:198
+msgid "No camps."
+msgstr "Nebyly nalezeny žádné campy."
+
+#: lib/Reservations/Admin/Events/Export.php:20
+#: lib/Reservations/Admin/Events/Export.php:21
+#: lib/Reservations/Admin/Events/Export.php:143
+#: lib/Reservations/Admin/Export.php:26 lib/Reservations/Admin/Export.php:27
+#: lib/Reservations/Admin/Export.php:359
+#: lib/Reservations/Admin/ImportExport.php:74
+msgid "Export"
+msgstr "Export"
+
+#: lib/Reservations/Admin/Events/Export.php:137
+#: lib/Reservations/Admin/Export.php:353
+msgid "Preset #"
+msgstr "Předvolba #"
+
+#: lib/Reservations/Admin/Events/Export.php:145
+#: lib/Reservations/Admin/Export.php:361
+msgid "Please select columns to export."
+msgstr "Vyberte prosím sloupce k exportování."
+
+#: lib/Reservations/Admin/Events/Export.php:145
+msgid "Please select events to export."
+msgstr "Vyberte prosím akce k exportování."
+
+#: lib/Reservations/Admin/Events/Export.php:147
+msgid "Exported events"
+msgstr "Exportované akce"
+
+#: lib/Reservations/Admin/Events/Export.php:148
+#: lib/Reservations/Admin/Events/Export.php:154
+#: lib/Reservations/Admin/Events/Export.php:166
+#: lib/Reservations/Admin/Events/ReplacementsListTable.php:59
+#: lib/Reservations/Admin/Export.php:364 lib/Reservations/Admin/Export.php:370
+#: lib/Reservations/Admin/Export.php:392
+#: lib/Reservations/Admin/InstructorProfile.php:90
+#: lib/Reservations/Admin/InstructorProfile.php:96
+#: lib/Reservations/Admin/ReplacementsListTable.php:58
+#: lib/Reservations/Admin/Settings/MessageTemplates.php:52
+#: lib/Reservations/Admin/Settings/MessageTemplates.php:70
+#: lib/Reservations/Admin/Settings/MessageTemplates.php:76
+#: lib/Reservations/Admin/Settings/MessageTemplates.php:89
+#: lib/Reservations/Admin/Settings/MessageTemplates.php:103
+#: lib/Reservations/Admin/SubscriptionsListTable.php:335
+#: lib/Reservations/PostTypes/Event.php:193
+#: lib/Reservations/PostTypes/Event.php:199
+#: lib/Reservations/PostTypes/Training.php:196
+#: lib/Reservations/PostTypes/Training.php:215
+#: lib/Reservations/PostTypes/Training.php:283
+#: lib/Reservations/PostTypes/Training.php:289
+#: lib/Reservations/Taxonomies/Gym.php:271
+#: lib/Reservations/Taxonomies/Gym.php:295
+#: lib/Reservations/Taxonomies/Gym.php:360
+#: lib/Reservations/Taxonomies/Gym.php:384
+#: lib/Reservations/Taxonomies/Gym.php:406
+#: lib/Reservations/Taxonomies/Gym.php:409
+#: lib/Reservations/Taxonomies/Gym.php:415
+#: lib/Reservations/Taxonomies/Gym.php:424
+#: lib/Reservations/Taxonomies/Gym.php:425 lib/Reservations/Utils/Html.php:223
+#: lib/Reservations/Utils/Html.php:247 lib/Reservations/Utils/Html.php:271
+#: lib/Reservations/Utils/Html.php:274 lib/Reservations/Utils/Html.php:280
+#: lib/Reservations/Utils/Html.php:289 lib/Reservations/Utils/Html.php:290
+msgid "Delete"
+msgstr "Smazat"
+
+#: lib/Reservations/Admin/Events/Export.php:148
+#: lib/Reservations/Admin/Events/Export.php:150
+msgid "No selected events."
+msgstr "Žádné vybrané akce."
+
+#: lib/Reservations/Admin/Events/Export.php:157
+msgid "Add Event:"
+msgstr "Přidat akci:"
+
+#: lib/Reservations/Admin/Events/Export.php:159
+#: lib/Reservations/Admin/Events/Export.php:173
+#: lib/Reservations/Admin/Export.php:375 lib/Reservations/Admin/Export.php:380
+#: lib/Reservations/Admin/Export.php:385 lib/Reservations/Admin/Export.php:399
+#: lib/Reservations/Admin/InstructorProfile.php:102
+#: lib/Reservations/Admin/Subscriptions/EditScreen.php:188
+#: lib/Reservations/PostTypes/Event.php:151
+#: lib/Reservations/PostTypes/Event.php:204
+#: lib/Reservations/PostTypes/Event.php:215
+#: lib/Reservations/PostTypes/Training.php:245
+#: lib/Reservations/PostTypes/Training.php:294
+#: lib/Reservations/PostTypes/Training.php:305
+#: lib/Reservations/PostTypes/Training.php:360
+#: lib/Reservations/Taxonomies/Gym.php:83
+#: lib/Reservations/Taxonomies/Gym.php:193
+msgid "&mdash; Select &mdash;"
+msgstr "&mdash; Vyberte &mdash;"
+
+#: lib/Reservations/Admin/Events/Export.php:164
+#: lib/Reservations/Admin/Export.php:390
+msgid "Exported columns"
+msgstr "Exportované sloupce"
+
+#: lib/Reservations/Admin/Events/Export.php:165
+#: lib/Reservations/Admin/Export.php:391
+msgid "Reorder columns using drag and drop."
+msgstr ""
+"Pokud chcete sloupce libovolně seřadit, tak je stačí snadno přesunout pomocí "
+"myši."
+
+#: lib/Reservations/Admin/Events/Export.php:166
+#: lib/Reservations/Admin/Events/Export.php:168
+#: lib/Reservations/Admin/Export.php:392 lib/Reservations/Admin/Export.php:394
+msgid "No selected columns."
+msgstr "Žádné vybrané sloupce."
+
+#: lib/Reservations/Admin/Events/Export.php:171
+#: lib/Reservations/Admin/Export.php:397
+msgid "Add Column:"
+msgstr "Přidat sloupec:"
+
+#: lib/Reservations/Admin/Events/Export.php:179
+#: lib/Reservations/Admin/Export.php:405
+msgid "Presets"
+msgstr "Předvolby"
+
+#: lib/Reservations/Admin/Events/Export.php:183
+#: lib/Reservations/Admin/Export.php:409
+msgid "Load"
+msgstr "Načíst"
+
+#: lib/Reservations/Admin/Events/Export.php:184
+#: lib/Reservations/Admin/Export.php:410
+msgid "Enter new preset name:"
+msgstr "Zadejte nové jméno předvolby:"
+
+#: lib/Reservations/Admin/Events/Export.php:184
+#: lib/Reservations/Admin/Export.php:410
+msgid "Save"
+msgstr "Uložit"
+
+#: lib/Reservations/Admin/Events/Export.php:187
+#: lib/Reservations/Admin/Export.php:413
+msgid "Options"
+msgstr "Možnosti"
+
+#: lib/Reservations/Admin/Events/Export.php:190
+msgctxt "event"
+msgid "Export subscriptions"
+msgstr "Exportovat účastníky"
+
+#: lib/Reservations/Admin/Events/Export.php:194
+#: lib/Reservations/Admin/Export.php:421
+msgid "Export replacements"
+msgstr "Exportovat náhradníky"
+
+#: lib/Reservations/Admin/Events/Export.php:198
+#: lib/Reservations/Admin/Export.php:430
+msgid "Export only paid"
+msgstr "Exportovat pouze zaplacené"
+
+#: lib/Reservations/Admin/Events/Export.php:202
+msgid "Export only paid deposit"
+msgstr "Exportovat pouze se zaplacenou zálohou"
+
+#: lib/Reservations/Admin/Events/Export.php:206
+#: lib/Reservations/Admin/Export.php:434
+msgid "Export only with application form"
+msgstr "Exportovat pouze s potvrzenou přihláškou"
+
+#: lib/Reservations/Admin/Events/Export.php:210
+#: lib/Reservations/Admin/Export.php:438
+msgid "Group by location"
+msgstr "Seskupit podle místa"
+
+#: lib/Reservations/Admin/Events/Export.php:214
+#: lib/Reservations/Admin/Export.php:442
+msgid "Sort by last name first"
+msgstr "Seřadit nejdříve podle příjmení"
+
+#: lib/Reservations/Admin/Events/Export.php:218
+#: lib/Reservations/Admin/Export.php:446
+msgid "Export to XLSX"
+msgstr "Exportovat do XLSX"
+
+#: lib/Reservations/Admin/Events/Replacements.php:13
+msgctxt "event"
+msgid "Replacements"
+msgstr "Náhradníci"
+
+#: lib/Reservations/Admin/Events/Replacements.php:27
+#: lib/Reservations/Admin/Replacements.php:17
+#: lib/Reservations/Admin/Replacements.php:26
+msgid "Replacements"
+msgstr "Náhradníci"
+
+#: lib/Reservations/Admin/Events/ReplacementsListTable.php:38
+#: lib/Reservations/Admin/ReplacementsListTable.php:37
+msgid "No replacements found."
+msgstr "Nebyli nalezeni žádní náhradníci."
+
+#: lib/Reservations/Admin/Events/ReplacementsListTable.php:52
+#: lib/Reservations/Admin/ReplacementsListTable.php:51
+#: lib/Reservations/Admin/SubscriptionsListTable.php:323
+msgid "Edit"
+msgstr "Upravit"
+
+#: lib/Reservations/Admin/Events/Subscriptions.php:13
+#: lib/Reservations/Admin/Events/Subscriptions.php:33
+msgctxt "event"
+msgid "Subscriptions"
+msgstr "Účastníci"
+
+#: lib/Reservations/Admin/Events/Subscriptions.php:38
+#: lib/Reservations/Admin/Subscriptions.php:43
+msgid "Remove unpaid"
+msgstr "Odstranit nezaplacené"
+
+#: lib/Reservations/Admin/Events/SubscriptionsListTable.php:15
+msgid "Name"
+msgstr "Jméno"
+
+#: lib/Reservations/Admin/Events/SubscriptionsListTable.php:16
+#: lib/Reservations/Admin/SubscriptionsListTable.php:71
+msgctxt "subscriptions"
+msgid "Contact"
+msgstr "Kontakt"
+
+#: lib/Reservations/Admin/Events/SubscriptionsListTable.php:17
+msgctxt "subscriptions"
+msgid "Event"
+msgstr "Akce"
+
+#: lib/Reservations/Admin/Events/SubscriptionsListTable.php:18
+msgctxt "subscriptions"
+msgid "Paid"
+msgstr "Zaplaceno"
+
+#: lib/Reservations/Admin/Events/SubscriptionsListTable.php:44
+#: lib/Reservations/Admin/Events/SubscriptionsListTable.php:51
+#, php-format
+msgid "%s US$"
+msgstr "%s Kč"
+
+#: lib/Reservations/Admin/Events/SubscriptionsListTable.php:54
+#, php-format
+msgid "total price: %s US$"
+msgstr "celková cena: %s Kč"
+
+#: lib/Reservations/Admin/Events/SubscriptionsListTable.php:108
+#: lib/Reservations/PostTypes/Event.php:65
+#: lib/Reservations/Taxonomies/Gym.php:518
+msgid "&mdash; City &mdash;"
+msgstr "&mdash; Město &mdash;"
+
+#: lib/Reservations/Admin/Events/SubscriptionsListTable.php:112
+#: lib/Reservations/PostTypes/Event.php:61
+msgid "&mdash; Event Type &mdash;"
+msgstr "&mdash; Typ akce &mdash;"
+
+#: lib/Reservations/Admin/Events/SubscriptionsListTable.php:116
+msgid "&mdash; Event &mdash;"
+msgstr "&mdash; Akce &mdash;"
+
+#: lib/Reservations/Admin/Events/SubscriptionsListTable.php:119
+#: lib/Reservations/Admin/SubscriptionsListTable.php:447
+#: lib/Reservations/Taxonomies/Gym.php:522
+#: lib/Reservations/Taxonomies/TrainingGroup.php:555
+msgid "Filter"
+msgstr "Filtrovat"
+
+#: lib/Reservations/Admin/Export.php:243
+msgctxt "event"
+msgid "Subscribers"
+msgstr "Účastníci"
+
+#: lib/Reservations/Admin/Export.php:243
+msgid "Subscribers"
+msgstr "Registrovaní"
+
+#: lib/Reservations/Admin/Export.php:361
+msgid "Please select training groups to export."
+msgstr "Vyberte prosím skupiny tréninků k exportování."
+
+#: lib/Reservations/Admin/Export.php:363
+msgid "Exported training groups"
+msgstr "Exportované skupiny tréninků"
+
+#: lib/Reservations/Admin/Export.php:364 lib/Reservations/Admin/Export.php:366
+msgid "No selected locations."
+msgstr "Žádná vybraná místa."
+
+#: lib/Reservations/Admin/Export.php:373
+#: lib/Reservations/Admin/InstructorProfile.php:100
+msgid "Add City:"
+msgstr "Přidat město:"
+
+#: lib/Reservations/Admin/Export.php:378
+msgid "Add Gym:"
+msgstr "Přidat tělocvičnu:"
+
+#: lib/Reservations/Admin/Export.php:383
+msgid "Add Training Group:"
+msgstr "Přidat skupinu tréninků:"
+
+#: lib/Reservations/Admin/Export.php:416
+msgid "Export subscriptions"
+msgstr "Exportovat registrované účastníky"
+
+#: lib/Reservations/Admin/Export.php:426
+msgid "Export only active"
+msgstr "Exportovat pouze aktivní"
+
+#: lib/Reservations/Admin/Export/Columns.php:28
+msgid "Subscriber"
+msgstr "Dítě"
+
+#: lib/Reservations/Admin/Export/Columns.php:31
+#: lib/Reservations/Admin/Export/Columns.php:81
+#: lib/Reservations/Admin/Subscriptions/EditScreen.php:502
+#: lib/Reservations/Admin/Subscriptions/EditScreen.php:647
+#: lib/Reservations/Pages/Events/Subscribe.php:278
+#: lib/Reservations/Pages/Events/Subscribe.php:326
+#: lib/Reservations/Pages/Subscribe.php:254
+#: lib/Reservations/Pages/Subscribe.php:282 public/events/subscribe-lead.php:22
+#: public/events/subscribe-lead.php:68 public/events/subscribe.php:22
+#: public/events/subscribe.php:85 public/subscribe-lead.php:26
+#: public/subscribe-lead.php:67 public/subscribe.php:22 public/subscribe.php:75
+msgid "First Name"
+msgstr "Jméno"
+
+#: lib/Reservations/Admin/Export/Columns.php:32
+#: lib/Reservations/Admin/Export/Columns.php:82
+#: lib/Reservations/Admin/Subscriptions/EditScreen.php:506
+#: lib/Reservations/Admin/Subscriptions/EditScreen.php:651
+#: lib/Reservations/Pages/Events/Subscribe.php:282
+#: lib/Reservations/Pages/Events/Subscribe.php:330
+#: lib/Reservations/Pages/Subscribe.php:258
+#: lib/Reservations/Pages/Subscribe.php:286 public/events/subscribe-lead.php:27
+#: public/events/subscribe-lead.php:73 public/events/subscribe.php:27
+#: public/events/subscribe.php:90 public/subscribe-lead.php:31
+#: public/subscribe-lead.php:72 public/subscribe.php:27 public/subscribe.php:80
+msgid "Last Name"
+msgstr "Příjmení"
+
+#: lib/Reservations/Admin/Export/Columns.php:34
+#: lib/Reservations/Admin/Export/Columns.php:84
+msgid "First Name + Last Name"
+msgstr "Jméno a příjmení"
+
+#: lib/Reservations/Admin/Export/Columns.php:40
+#: lib/Reservations/Admin/Export/Columns.php:90
+msgid "Last Name + First Name"
+msgstr "Příjmení a jméno"
+
+#: lib/Reservations/Admin/Export/Columns.php:46
+#: lib/Reservations/Admin/Export/Columns.php:96
+msgid "Date of Birth (d. m. yyyy)"
+msgstr "Datum narození (d. m. rrrr)"
+
+#: lib/Reservations/Admin/Export/Columns.php:49
+#: lib/Reservations/Admin/Export/Columns.php:100
+#: lib/Reservations/Admin/Export/Columns.php:296
+#: lib/Reservations/Admin/Export/Columns.php:325
+#: lib/Reservations/Admin/Subscriptions/EditScreen.php:516
+#: lib/Reservations/Admin/Subscriptions/EditScreen.php:663
+#: lib/Reservations/Pages/Events/Subscribe.php:309
+#: lib/Reservations/Pages/Events/Subscribe.php:334
+#: lib/Reservations/Pages/Subscribe.php:266
+#: lib/Reservations/Pages/Subscribe.php:290
+#: lib/Reservations/PostTypes/Event.php:156
+#: lib/Reservations/Taxonomies/Gym.php:77
+#: lib/Reservations/Taxonomies/Gym.php:187
+msgid "Address"
+msgstr "Adresa"
+
+#: lib/Reservations/Admin/Export/Columns.php:50
+#: lib/Reservations/Admin/Subscriptions/EditScreen.php:523
+#: lib/Reservations/Pages/Events/Subscribe.php:313
+#: lib/Reservations/Pages/Subscribe.php:271 public/events/subscribe.php:47
+#: public/subscribe.php:42
+msgid "Personal Number"
+msgstr "Rodné číslo"
+
+#: lib/Reservations/Admin/Export/Columns.php:52
+#: lib/Reservations/Admin/Subscriptions/EditScreen.php:530
+#: lib/Reservations/Pages/Events/Subscribe.php:290
+#: public/events/subscribe-lead.php:42 public/events/subscribe.php:52
+msgid "Health Insurance Company Code"
+msgstr "Kód zdravotní pojišťovny"
+
+#: lib/Reservations/Admin/Export/Columns.php:55
+#: lib/Reservations/Admin/Subscriptions/EditScreen.php:536
+#: public/events/subscribe-lead.php:37 public/events/subscribe.php:42
+#: public/subscribe-lead.php:46 public/subscribe.php:47
+msgid "Health Restrictions"
+msgstr "Zdravotní omezení"
+
+#: lib/Reservations/Admin/Export/Columns.php:57
+#: lib/Reservations/Admin/Subscriptions/EditScreen.php:542
+#: public/events/subscribe-lead.php:54 public/events/subscribe.php:58
+#: public/events/subscribe.php:77
+msgid "Used Medicine"
+msgstr "Pravidelně užívané léky (+ dávkování)"
+
+#: lib/Reservations/Admin/Export/Columns.php:61
+msgid "Swimmer (0 or 1)"
+msgstr "Plavec (0 nebo 1)"
+
+#: lib/Reservations/Admin/Export/Columns.php:66
+#: lib/Reservations/Admin/Subscriptions/EditScreen.php:550
+#: lib/Reservations/Pages/Events/Subscribe.php:303
+#: public/events/subscribe-lead.php:59 public/events/subscribe.php:70
+msgid "Shirt Size"
+msgstr "Velikost trička"
+
+#: lib/Reservations/Admin/Export/Columns.php:71
+#: lib/Reservations/Admin/Subscriptions/EditScreen.php:571
+#: public/subscribe.php:59
+msgid "Facebook"
+msgstr "Facebook"
+
+#: lib/Reservations/Admin/Export/Columns.php:78
+msgid "Representative"
+msgstr "Zákonný zástupce"
+
+#: lib/Reservations/Admin/Export/Columns.php:105
+msgid "Contact"
+msgstr "Kontakt"
+
+#: lib/Reservations/Admin/Export/Columns.php:108
+#: lib/Reservations/Admin/Subscriptions/EditScreen.php:672
+#: lib/Reservations/Pages/Events/Subscribe.php:338
+#: lib/Reservations/Pages/Subscribe.php:294 public/events/subscribe-lead.php:87
+#: public/events/subscribe.php:107 public/subscribe-lead.php:86
+#: public/subscribe.php:97
+msgid "Email"
+msgstr "Email"
+
+#: lib/Reservations/Admin/Export/Columns.php:110
+#: lib/Reservations/Admin/Subscriptions/EditScreen.php:678
+#: lib/Reservations/Pages/Subscribe.php:298 public/events/subscribe-lead.php:92
+#: public/subscribe-lead.php:91 public/subscribe.php:102
+msgid "Phone"
+msgstr "Telefon"
+
+#: lib/Reservations/Admin/Export/Columns.php:115
+#: lib/Reservations/Admin/Subscriptions/EditScreen.php:685
+#: lib/Reservations/Pages/Events/Subscribe.php:342
+#: public/events/subscribe.php:112
+msgid "Phone (mother)"
+msgstr "Telefon (matka)"
+
+#: lib/Reservations/Admin/Export/Columns.php:120
+#: lib/Reservations/Admin/Subscriptions/EditScreen.php:689
+#: lib/Reservations/Pages/Events/Subscribe.php:321
+#: public/events/subscribe.php:117
+msgid "Phone (father)"
+msgstr "Telefon (otec)"
+
+#: lib/Reservations/Admin/Export/Columns.php:127
+#: lib/Reservations/Admin/Subscriptions/EditScreen.php:612
+msgid "Other"
+msgstr "Jiné"
+
+#: lib/Reservations/Admin/Export/Columns.php:132
+#: lib/Reservations/Admin/Subscriptions/EditScreen.php:594
+#: lib/Reservations/Admin/Subscriptions/EditScreen.php:598
+#: public/events/subscribe.php:146
+msgid "Carpool"
+msgstr "Spolujízda"
+
+#: lib/Reservations/Admin/Export/Columns.php:136
+#: lib/Reservations/Admin/Subscriptions/EditScreen.php:602
+#: public/events/subscribe.php:158
+msgid "Number of Requested/Offered Seats"
+msgstr "Počet míst, jež mohu nabídnout nebo požaduji"
+
+#: lib/Reservations/Admin/Export/Columns.php:139
+#: public/events/subscribe.php:163
+msgctxt "carpool"
+msgid "Contact Phone"
+msgstr "Kontaktní telefon"
+
+#: lib/Reservations/Admin/Export/Columns.php:142
+msgid "Catering (0 or 1)"
+msgstr "Stravování (0 nebo 1)"
+
+#: lib/Reservations/Admin/Export/Columns.php:146
+#: lib/Reservations/Admin/Subscriptions/EditScreen.php:583
+#: public/events/subscribe.php:126
+msgid "Catering"
+msgstr "Stravování"
+
+#: lib/Reservations/Admin/Export/Columns.php:150
+msgctxt "export"
+msgid "Selected Meal"
+msgstr ""
+
+#: lib/Reservations/Admin/Export/Columns.php:153
+#: lib/Reservations/Admin/Subscriptions/EditScreen.php:617
+#: public/events/subscribe.php:171
+msgid "Referrer"
+msgstr "Odkud jste se o této akci dozvěděli?"
+
+#: lib/Reservations/Admin/Export/Columns.php:165
+msgctxt "export"
+msgid "Reason"
+msgstr "Důvod výběru akce"
+
+#: lib/Reservations/Admin/Export/Columns.php:188
+msgid "Subscription"
+msgstr "Registrace"
+
+#: lib/Reservations/Admin/Export/Columns.php:192
+#: lib/Reservations/Admin/SubscriptionsListTable.php:73
+msgid "Start Date"
+msgstr "Datum počátku"
+
+#: lib/Reservations/Admin/Export/Columns.php:197
+#: lib/Reservations/Admin/SubscriptionsListTable.php:74
+msgid "End Date"
+msgstr "Datum expirace"
+
+#: lib/Reservations/Admin/Export/Columns.php:202
+msgid "Months Remaining"
+msgstr "Zbývá měsíců"
+
+#: lib/Reservations/Admin/Export/Columns.php:210
+msgid "Months Remaining + months"
+msgstr "Zbývá měsíců (x měsíců)"
+
+#: lib/Reservations/Admin/Export/Columns.php:214
+#: lib/Reservations/Models/Subscription.php:456
+#, php-format
+msgid "%d month"
+msgid_plural "%d months"
+msgstr[0] "%d měsíc"
+msgstr[1] "%d měsíce"
+msgstr[2] "%d měsíců"
+
+#: lib/Reservations/Admin/Export/Columns.php:219
+#: lib/Reservations/Admin/Settings/MessageTemplates.php:171
+#: lib/Reservations/Admin/Subscriptions/EditScreen.php:173
+msgid "Subscription Type"
+msgstr "Typ registrace"
+
+#: lib/Reservations/Admin/Export/Columns.php:224
+#: lib/Reservations/Admin/Subscriptions/EditScreen.php:193
+#: lib/Reservations/Admin/Subscriptions/EditScreen.php:557
+#: lib/Reservations/PostTypes/Training.php:352 public/subscribe-lead.php:51
+#: public/subscribe.php:52
+msgid "Age Group"
+msgstr "Věková skupina"
+
+#: lib/Reservations/Admin/Export/Columns.php:231
+msgid "Age Group (lowercase)"
+msgstr "Věková skupina (malá písmena)"
+
+#: lib/Reservations/Admin/Export/Columns.php:238
+msgid "Active (0 or 1)"
+msgstr "Aktivní (0 nebo 1)"
+
+#: lib/Reservations/Admin/Export/Columns.php:243
+msgid "Paid (0 or 1)"
+msgstr "Zaplaceno (0 nebo 1)"
+
+#: lib/Reservations/Admin/Export/Columns.php:247
+msgid "Paid Partially (0 or 1)"
+msgstr "Zaplaceno alespoň částečně (0 nebo 1)"
+
+#: lib/Reservations/Admin/Export/Columns.php:255
+#: lib/Reservations/Admin/Subscriptions/EditScreen.php:208
+msgid "Total Amount"
+msgstr "Celková částka"
+
+#: lib/Reservations/Admin/Export/Columns.php:260
+#: lib/Reservations/Admin/Subscriptions/EditScreen.php:209
+msgid "Paid Amount"
+msgstr "Již zaplacená částka"
+
+#: lib/Reservations/Admin/Export/Columns.php:265
+msgid "Application Form Received (0 or 1)"
+msgstr "Přihláška potvrzena (0 nebo 1)"
+
+#: lib/Reservations/Admin/Export/Columns.php:270
+msgid "Is Replacement (0 or 1)"
+msgstr "Je náhradník (0 nebo 1)"
+
+#: lib/Reservations/Admin/Export/Columns.php:275
+msgid "Registration Date (d. m. rrrr h:m:s)"
+msgstr "Datum a čas registrace (d. m. rrrr h:m:s)"
+
+#: lib/Reservations/Admin/Export/Columns.php:282
+#: lib/Reservations/Admin/Subscriptions/EditScreen.php:180
+#: lib/Reservations/Admin/Subscriptions/EditScreen.php:186
+#: lib/Reservations/PostTypes/Training.php:358
+msgid "Training Group"
+msgstr "Skupina tréninků"
+
+#: lib/Reservations/Admin/Export/Columns.php:286
+msgctxt "training group"
+msgid "Name"
+msgstr "Název"
+
+#: lib/Reservations/Admin/Export/Columns.php:291
+#: lib/Reservations/Admin/Settings/MessageTemplates.php:143
+msgid "Gym"
+msgstr "Tělocvična"
+
+#: lib/Reservations/Admin/Export/Columns.php:295
+msgctxt "gym"
+msgid "Name"
+msgstr "Název"
+
+#: lib/Reservations/Admin/Export/Columns.php:298
+#: lib/Reservations/Admin/Export/Columns.php:327
+msgid "City Name"
+msgstr "Název města"
+
+#: lib/Reservations/Admin/Export/Columns.php:303
+msgid "Name with City"
+msgstr "Název s městem"
+
+#: lib/Reservations/Admin/Export/Columns.php:310
+msgid "Name with Address"
+msgstr "Název s adresou"
+
+#: lib/Reservations/Admin/Export/Columns.php:320
+msgid "Event"
+msgstr "Akce"
+
+#: lib/Reservations/Admin/Export/Columns.php:324
+msgctxt "event"
+msgid "Name"
+msgstr "Jméno"
+
+#: lib/Reservations/Admin/ImportExport.php:30
+#: lib/Reservations/Admin/ImportExport.php:31
+msgid "Import & Export Reservations Data"
+msgstr "Importovat a exportovat data rezervačního systému"
+
+#: lib/Reservations/Admin/ImportExport.php:78
+msgid ""
+"Export file will contain all data managed by the plugin, including "
+"subscriber's personal information. Keep this file in a safe place to prevent "
+"potential privacy issues."
+msgstr ""
+"Výstupní soubor bude obsahovat všechna data spravovaná rezervačním systémem. "
+"To zahrnuje i veškeré osobní údaje účastníků. Hesla k uživatelským účtům "
+"budou přenášena v šifrované podobě. Nakládejte s tímto souborem opatrně, "
+"abyste omezili potenciální únik citlivých údajů."
+
+#: lib/Reservations/Admin/ImportExport.php:79
+msgid "Export all data to JSON"
+msgstr "Exportovat všechna data do souboru JSON"
+
+#: lib/Reservations/Admin/ImportExport.php:81
+msgid "Import"
+msgstr "Import"
+
+#: lib/Reservations/Admin/ImportExport.php:82
+msgid ""
+"After Reservations analyzes your file, you'll be able to select a few "
+"options and confirm the (potentially dangerous) operation."
+msgstr ""
+"Poté, co rezervační systém analyzuje Váš soubor, budete moci ještě upravit "
+"několik nastavení a potvrdit tuto (potenciálně nebezpečnou) operaci."
+
+#: lib/Reservations/Admin/ImportExport.php:313
+#, php-format
+msgid ""
+"The export file could not be found at \"%s\". It is likely that this was "
+"caused by a permissions problem."
+msgstr ""
+"Soubor s exportem nebyl nalezen na očekávané cestě \"%s\". Zkontrolujte "
+"prosím oprávnění do této složky."
+
+#: lib/Reservations/Admin/ImportExport.php:321
+#: lib/Reservations/Admin/ImportExport.php:426
+#, php-format
+msgid "Failed to parse export file: %s"
+msgstr "Chyba během parsování vstupního souboru: %s"
+
+#: lib/Reservations/Admin/ImportExport.php:381
+msgid "Reading file:"
+msgstr "Zpracovávám soubor:"
+
+#: lib/Reservations/Admin/ImportExport.php:383
+msgid "Import Users"
+msgstr "Import uživatelů"
+
+#: lib/Reservations/Admin/ImportExport.php:385
+#, php-format
+msgid ""
+"Total users: %d (administrators: %d, authors: %d, instructors: %d, "
+"customers: %d)"
+msgstr ""
+"Celkový počet uživatelů: %d (administrátoři: %d, autoři: %d, instruktoři: "
+"%d, zákazníci: %d)"
+
+#: lib/Reservations/Admin/ImportExport.php:387
+msgid "Assign Users"
+msgstr "Párování uživatelů"
+
+#: lib/Reservations/Admin/ImportExport.php:389
+msgid ""
+"Customers will be automatically paired by their email and their password "
+"will remain unchanged."
+msgstr ""
+"Zákazníci budou spárování automaticky podle emailové adresy. V případě "
+"vytvoření nových uživatelů jim zůstanou původní hesla."
+
+#: lib/Reservations/Admin/ImportExport.php:397
+msgid "&mdash; Create New User &mdash;"
+msgstr "&mdash; Vytvořit nového uživatele &mdash;"
+
+#: lib/Reservations/Admin/ImportExport.php:402
+msgid "Confirm Import"
+msgstr "Potvrdit import"
+
+#: lib/Reservations/Admin/ImportExport.php:418
+msgid "The export file could not be loaded."
+msgstr "Soubor s exportem se nepodařilo načíst."
+
+#: lib/Reservations/Admin/ImportExport.php:482
+msgid "Import successful."
+msgstr "Import proběhl úspěšně"
+
+#: lib/Reservations/Admin/ImportExport.php:652
+msgid "Remote server did not respond"
+msgstr "Vzdálený server neodpověděl dostatečně rychle"
+
+#: lib/Reservations/Admin/ImportExport.php:660
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr "Vzdálený server vrátil chybu %1$d %2$s"
+
+#: lib/Reservations/Admin/ImportExport.php:667
+msgid "Remote file is incorrect size"
+msgstr "Vzdálený soubor má nesprávnou velikost"
+
+#: lib/Reservations/Admin/ImportExport.php:672
+msgid "Zero size file downloaded"
+msgstr "Stažený soubor má nulovou velikost"
+
+#: lib/Reservations/Admin/ImportExport.php:716
+#, fuzzy
+#| msgid "Invalid recipient"
+msgid "Invalid file type"
+msgstr "Neplatný příjemce testovací zprávy"
+
+#: lib/Reservations/Admin/InstructorProfile.php:52
+msgid "Instructor info"
+msgstr "Informace o instruktorovi"
+
+#: lib/Reservations/Admin/InstructorProfile.php:56
+msgid "Is instructor?"
+msgstr "Je instruktor?"
+
+#: lib/Reservations/Admin/InstructorProfile.php:59
+msgid "Check, if this user should be marked as instructor."
+msgstr "Zaškrtněte, pokud tento uživatel představuje instruktora."
+
+#: lib/Reservations/Admin/InstructorProfile.php:63
+msgid "Nickname"
+msgstr "Přezdívka instruktora"
+
+#: lib/Reservations/Admin/InstructorProfile.php:69
+msgid "Experience"
+msgstr "Zkušenosti"
+
+#: lib/Reservations/Admin/InstructorProfile.php:75
+#: lib/Reservations/PostTypes/Event.php:223
+#: lib/Reservations/PostTypes/Training.php:313
+msgid "Contact Email"
+msgstr "Kontaktní email"
+
+#: lib/Reservations/Admin/InstructorProfile.php:81
+#: lib/Reservations/Admin/Subscriptions/EditScreen.php:606
+#: lib/Reservations/PostTypes/Event.php:227
+#: lib/Reservations/PostTypes/Training.php:317
+msgid "Contact Phone"
+msgstr "Kontaktní telefon"
+
+#: lib/Reservations/Admin/InstructorProfile.php:88
+msgid "Accessible Cities"
+msgstr "Přístupná města"
+
+#: lib/Reservations/Admin/InstructorProfile.php:90
+#: lib/Reservations/Admin/InstructorProfile.php:92
+msgid "No selected cities. All cities are accessible."
+msgstr "Všechna města jsou přístupná."
+
+#: lib/Reservations/Admin/MergeGym.php:21
+#: lib/Reservations/Admin/MergeGym.php:22
+#: lib/Reservations/Taxonomies/Gym.php:553
+msgid "Merge"
+msgstr "Sloučit"
+
+#: lib/Reservations/Admin/MergeGym.php:33
+msgid "Invalid gym ID"
+msgstr "Neplatné ID tělocvičny"
+
+#: lib/Reservations/Admin/MergeGym.php:40
+msgid "Gym not found"
+msgstr "Tělocvična nebyla nalezena."
+
+#: lib/Reservations/Admin/MergeGym.php:45
+msgid "You are not allowed to edit this gym"
+msgstr "Nemáte práva na úpravu této tělocvičny"
+
+#: lib/Reservations/Admin/MergeGym.php:73
+msgid "Target gym not found"
+msgstr "Cílová tělocvična nebyla nalezena."
+
+#: lib/Reservations/Admin/MergeGym.php:78
+msgid "Cannot merge gym with itself"
+msgstr "Nelze sloučit tělocvičnu samu se sebou"
+
+#: lib/Reservations/Admin/MergeGym.php:99
+#, php-format
+msgid "Gym %s was merged with gym %s"
+msgstr "Tělocvična %s byla sloučena s %s"
+
+#: lib/Reservations/Admin/MergeGym.php:119
+msgid "Merge Gym"
+msgstr "Sloučit tělocvičny"
+
+#: lib/Reservations/Admin/MergeGym.php:136
+msgid "Summary"
+msgstr "Shrnutí"
+
+#: lib/Reservations/Admin/MergeGym.php:138
+#, php-format
+msgid ""
+"These trainings will be moved from %s to the selected target gym. Training "
+"groups won't be affected."
+msgstr ""
+"Tyto tréninky budou přesunuty z %s do vybrané cílové tělocvičny. Skupiny "
+"tréninků zůstanou nedotčeny."
+
+#: lib/Reservations/Admin/MergeGym.php:142
+msgid "training group:"
+msgstr "skupina tréninků:"
+
+#: lib/Reservations/Admin/MergeGym.php:142
+#: lib/Reservations/Admin/Subscriptions/EditScreen.php:710
+#: lib/Reservations/Models/TrainingGroup.php:401 public/subscribe-lead.php:121
+#: public/subscribe.php:138
+msgid "age group:"
+msgstr "věková skupina:"
+
+#: lib/Reservations/Admin/MergeGym.php:146
+#, php-format
+msgid "Gym %s will then be permanently deleted."
+msgstr "Tělocvična %s poté bude navždy smazána."
+
+#: lib/Reservations/Admin/MergeGym.php:149
+msgid "Merge gyms"
+msgstr "Sloučit tělocvičny"
+
+#: lib/Reservations/Admin/Replacements.php:45
+#: lib/Reservations/Admin/Subscriptions.php:60
+msgid "Number of items per page:"
+msgstr "Počet položek na stránce:"
+
+#: lib/Reservations/Admin/Replacements.php:73
+msgid "Replacement was deleted."
+msgstr "Náhradník byl smazán."
+
+#: lib/Reservations/Admin/Settings.php:23
+msgid "General"
+msgstr "Obecné"
+
+#: lib/Reservations/Admin/Settings.php:25
+msgid "Form Filler Url"
+msgstr "URL vyplňovače formulářů"
+
+#: lib/Reservations/Admin/Settings.php:30
+msgid "Google Maps API Key"
+msgstr "Google Maps API klíč"
+
+#: lib/Reservations/Admin/Settings.php:33
+msgid "Email From"
+msgstr "Odesílatel emailů"
+
+#: lib/Reservations/Admin/Settings.php:39
+msgid "Email From Name"
+msgstr "Jméno odesílatele emailů"
+
+#: lib/Reservations/Admin/Settings.php:40
+msgid "Privacy Policy URL"
+msgstr "URL stránky se zásadami ochrany osobních údajů"
+
+#: lib/Reservations/Admin/Settings.php:45
+msgid "New Account Email Template"
+msgstr "Šablona registračního emailu"
+
+#: lib/Reservations/Admin/Settings.php:48
+#: lib/Reservations/Admin/Settings.php:128
+#: lib/Reservations/Taxonomies/Gym.php:256
+#: lib/Reservations/Taxonomies/Gym.php:266
+#: lib/Reservations/Taxonomies/Gym.php:283
+#: lib/Reservations/Taxonomies/Gym.php:291
+#: lib/Reservations/Taxonomies/Gym.php:345
+#: lib/Reservations/Taxonomies/Gym.php:355
+#: lib/Reservations/Taxonomies/Gym.php:372
+#: lib/Reservations/Taxonomies/Gym.php:380 lib/Reservations/Utils/Html.php:189
+#: lib/Reservations/Utils/Html.php:193 lib/Reservations/Utils/Html.php:208
+#: lib/Reservations/Utils/Html.php:218 lib/Reservations/Utils/Html.php:235
+#: lib/Reservations/Utils/Html.php:243
+msgid "None"
+msgstr "Žádné"
+
+#: lib/Reservations/Admin/Settings.php:50
+msgid ""
+"Email sent on account creation from subscription form. Don't forget to "
+"include the {{password}} variable."
+msgstr ""
+"Email odeslaný po vytvoření účtu z registračního formuláře. Nezapomeňte "
+"použít proměnnou {{password}}."
+
+#: lib/Reservations/Admin/Settings.php:59
+msgid "Schedule Settings"
+msgstr "Nastavení rozvrhu"
+
+#: lib/Reservations/Admin/Settings.php:61
+msgid "Minimal Time"
+msgstr "Minimální čas"
+
+#: lib/Reservations/Admin/Settings.php:65
+msgid "Maximal Time"
+msgstr "Maximální čas"
+
+#: lib/Reservations/Admin/Settings.php:70
+msgid "Application Form Settings"
+msgstr "Nastavení přihlášky"
+
+#: lib/Reservations/Admin/Settings.php:72
+msgid "Filename"
+msgstr "Jméno souboru"
+
+#: lib/Reservations/Admin/Settings.php:73
+msgid "Filename (Workshops)"
+msgstr "Jméno souboru (eventy)"
+
+#: lib/Reservations/Admin/Settings.php:74
+msgid "Filename (Camps)"
+msgstr "Jméno souboru (campy)"
+
+#: lib/Reservations/Admin/Settings.php:77
+msgid "Organisation"
+msgstr "Organizace"
+
+#: lib/Reservations/Admin/Settings.php:78
+msgid "Registration Number"
+msgstr "IČ"
+
+#: lib/Reservations/Admin/Settings.php:83
+msgid "Subscription Settings"
+msgstr "Nastavení registrací"
+
+#: lib/Reservations/Admin/Settings.php:85
+msgid "Term Advance"
+msgstr "Předstih dalšího pololetí"
+
+#: lib/Reservations/Admin/Settings.php:88
+#: lib/Reservations/Admin/Settings.php:119
+#: lib/Reservations/Taxonomies/Gym.php:251
+#: lib/Reservations/Taxonomies/Gym.php:278
+#: lib/Reservations/Taxonomies/Gym.php:340
+#: lib/Reservations/Taxonomies/Gym.php:367 lib/Reservations/Utils/Html.php:203
+#: lib/Reservations/Utils/Html.php:230
+msgid "days"
+msgstr "dní"
+
+#: lib/Reservations/Admin/Settings.php:89
+msgid "How many days in advance allow registration for next term."
+msgstr "Kolik dní v předstihu začít nabízet registraci na další pololetí."
+
+#: lib/Reservations/Admin/Settings.php:92
+msgid "Default Biannual Subscription Duration"
+msgstr "Výchozí délka pololetního předplatného"
+
+#: lib/Reservations/Admin/Settings.php:95
+msgid ""
+"Putting zeroes there will enable biannual subscription only when a term is "
+"active."
+msgstr ""
+"Vložením nul povolíte pololetní předplatné pouze, pokud je zadané pololetí "
+"aktivní."
+
+#: lib/Reservations/Admin/Settings.php:100
+msgid "Default Annual Subscription Duration"
+msgstr "Výchozí délka ročního předplatného"
+
+#: lib/Reservations/Admin/Settings.php:103
+msgid ""
+"Putting zeroes there will enable biannual subscription only when a year is "
+"active."
+msgstr ""
+"Vložením nul povolíte roční předplatné pouze, pokud je zadaný rok aktivní."
+
+#: lib/Reservations/Admin/Settings.php:109
+msgid "Subscription End Notification Settings"
+msgstr "Nastavení upomínkového emailu při konci předplatného"
+
+#: lib/Reservations/Admin/Settings.php:111
+msgid "Enable Notification Email"
+msgstr "Povolit upomínkový email"
+
+#: lib/Reservations/Admin/Settings.php:116
+msgid "Notification Advance"
+msgstr "Předstih odeslání upomínkového emailu"
+
+#: lib/Reservations/Admin/Settings.php:120
+msgctxt "subscription end notification"
+msgid ""
+"How many days before the subscription ends should the notification email be "
+"sent."
+msgstr "Kolik dní před koncem předplatného odeslat upomínkový email."
+
+#: lib/Reservations/Admin/Settings.php:125
+msgctxt "subscription end notification"
+msgid "Notification Email Template"
+msgstr "Šablona upomínkového emailu"
+
+#: lib/Reservations/Admin/Settings/GoPay.php:25
+#: lib/Reservations/Admin/Settings/MessageTemplates.php:173
+#: lib/Reservations/PageRouter.php:55
+msgid "Trainings"
+msgstr "Tréninky"
+
+#: lib/Reservations/Admin/Settings/GoPay.php:49
+msgid "GoPay Settings"
+msgstr "Nastavení GoPay"
+
+#: lib/Reservations/Admin/Settings/GoPay.php:65
+msgid "GoID"
+msgstr "GoID"
+
+#: lib/Reservations/Admin/Settings/GoPay.php:69
+msgid "Client ID"
+msgstr "Client ID"
+
+#: lib/Reservations/Admin/Settings/GoPay.php:73
+msgid "Client Secret"
+msgstr "Client Secret"
+
+#: lib/Reservations/Admin/Settings/GoPay.php:77
+msgid "Environment"
+msgstr "Prostředí"
+
+#: lib/Reservations/Admin/Settings/GoPay.php:78
+msgid "Production mode"
+msgstr "Produkčni mód"
+
+#: lib/Reservations/Admin/Settings/ImportExport.php:24
+msgid "Import & Export"
+msgstr "Import & Export"
+
+#: lib/Reservations/Admin/Settings/ImportExport.php:26
+msgid "Import and export all data managed by the plugin."
+msgstr "Importovat a exportovat všechna data spravovaná rezervačním systémem."
+
+#: lib/Reservations/Admin/Settings/ImportExport.php:28
+msgid "Open Tool"
+msgstr "Spustit nástroj"
+
+#: lib/Reservations/Admin/Settings/MessageTemplates.php:47
+msgid "Email Templates"
+msgstr "Šablony emailů"
+
+#: lib/Reservations/Admin/Settings/MessageTemplates.php:52
+#: lib/Reservations/Admin/Settings/MessageTemplates.php:89
+#: lib/Reservations/Admin/Settings/MessageTemplates.php:221
+#, php-format
+msgid "Template #%s"
+msgstr "Šablona #%s"
+
+#: lib/Reservations/Admin/Settings/MessageTemplates.php:55
+#: lib/Reservations/Admin/Settings/MessageTemplates.php:92
+msgid "Subject Template"
+msgstr "Šablona předmětu zprávy"
+
+#: lib/Reservations/Admin/Settings/MessageTemplates.php:59
+#: lib/Reservations/Admin/Settings/MessageTemplates.php:96
+msgid "Body Template"
+msgstr "Šablona těla zprávy"
+
+#: lib/Reservations/Admin/Settings/MessageTemplates.php:67
+#: lib/Reservations/Admin/Settings/MessageTemplates.php:100
+msgid "Attachments"
+msgstr "Přílohy"
+
+#: lib/Reservations/Admin/Settings/MessageTemplates.php:69
+#: lib/Reservations/Admin/Settings/MessageTemplates.php:102
+msgid "Attach filled application form"
+msgstr "Přiložit vyplněnou přihlášku"
+
+#: lib/Reservations/Admin/Settings/MessageTemplates.php:70
+#: lib/Reservations/Admin/Settings/MessageTemplates.php:72
+#: lib/Reservations/Admin/Settings/MessageTemplates.php:103
+#: lib/Reservations/Admin/Settings/MessageTemplates.php:104
+#: lib/Reservations/Taxonomies/Gym.php:409
+#: lib/Reservations/Taxonomies/Gym.php:411
+#: lib/Reservations/Taxonomies/Gym.php:425
+#: lib/Reservations/Taxonomies/Gym.php:426 lib/Reservations/Utils/Html.php:274
+#: lib/Reservations/Utils/Html.php:276 lib/Reservations/Utils/Html.php:290
+#: lib/Reservations/Utils/Html.php:291
+msgid "No files."
+msgstr "Žádné soubory."
+
+#: lib/Reservations/Admin/Settings/MessageTemplates.php:79
+#: lib/Reservations/Admin/Settings/MessageTemplates.php:106
+#: lib/Reservations/Taxonomies/Gym.php:418
+#: lib/Reservations/Taxonomies/Gym.php:428 lib/Reservations/Utils/Html.php:283
+#: lib/Reservations/Utils/Html.php:293
+msgid "Select files"
+msgstr "Vyberte soubory"
+
+#: lib/Reservations/Admin/Settings/MessageTemplates.php:79
+#: lib/Reservations/Admin/Settings/MessageTemplates.php:106
+#: lib/Reservations/Taxonomies/Gym.php:418
+#: lib/Reservations/Taxonomies/Gym.php:428 lib/Reservations/Utils/Html.php:283
+#: lib/Reservations/Utils/Html.php:293
+msgid "Add file"
+msgstr "Přidat soubor"
+
+#: lib/Reservations/Admin/Settings/MessageTemplates.php:112
+msgid "Add email template"
+msgstr "Přidat šablonu emailu"
+
+#: lib/Reservations/Admin/Settings/MessageTemplates.php:115
+msgid "Available Variables"
+msgstr "Dostupné proměnné"
+
+#: lib/Reservations/Admin/Settings/MessageTemplates.php:117
+msgid "Common Attributes"
+msgstr "Základní údaje"
+
+#: lib/Reservations/Admin/Settings/MessageTemplates.php:118
+msgid "Name of the subscriber"
+msgstr "Celé jméno dítěte"
+
+#: lib/Reservations/Admin/Settings/MessageTemplates.php:119
+msgid "Name of the subscriber representative"
+msgstr "Celé jméno zákonného zástupce"
+
+#: lib/Reservations/Admin/Settings/MessageTemplates.php:120
+msgid "Contact email address"
+msgstr "Kontaktní email"
+
+#: lib/Reservations/Admin/Settings/MessageTemplates.php:121
+msgid "Start date of the subscription or event"
+msgstr "Počátek předplatného/akce"
+
+#: lib/Reservations/Admin/Settings/MessageTemplates.php:122
+msgid "End date of the subscription or event"
+msgstr "Konec předplatného/akce"
+
+#: lib/Reservations/Admin/Settings/MessageTemplates.php:123
+msgid "Remaining day count"
+msgstr "Počet zbývajících dní"
+
+#: lib/Reservations/Admin/Settings/MessageTemplates.php:124
+msgid "Remaining day count with 'days' suffix"
+msgstr "Počet zbývajících dní s příponou 'dní'"
+
+#: lib/Reservations/Admin/Settings/MessageTemplates.php:125
+msgid "Remaining month count"
+msgstr "Počet zbývajících měsíců"
+
+#: lib/Reservations/Admin/Settings/MessageTemplates.php:126
+msgid "Remaining month count with 'months' suffix"
+msgstr "Počet zbývajících měsíců s příponou 'dní'"
+
+#: lib/Reservations/Admin/Settings/MessageTemplates.php:127
+msgid "Subscription type (first letter uppercase)"
+msgstr "Typ registrace (první písmeno velké)"
+
+#: lib/Reservations/Admin/Settings/MessageTemplates.php:128
+msgid "Subscription type (all lowercase)"
+msgstr "Typ registrace (malá písmena)"
+
+#: lib/Reservations/Admin/Settings/MessageTemplates.php:129
+msgid "Name of the city"
+msgstr "Jméno města"
+
+#: lib/Reservations/Admin/Settings/MessageTemplates.php:130
+msgid "Address of the gym or event"
+msgstr "Tělocvična s adresou nebo adresa akce"
+
+#: lib/Reservations/Admin/Settings/MessageTemplates.php:132
+msgid "Payment Attributes"
+msgstr "Údaje o platbě"
+
+#: lib/Reservations/Admin/Settings/MessageTemplates.php:133
+msgid "Amount of this payment"
+msgstr "Částka této platby"
+
+#: lib/Reservations/Admin/Settings/MessageTemplates.php:134
+msgid "Price of this event/subscription"
+msgstr "Celková cena tohoto předplatného/akce"
+
+#: lib/Reservations/Admin/Settings/MessageTemplates.php:135
+msgid "Already paid amount of this event/subscription"
+msgstr "Již zaplacená částka tohoto předplatného/akce"
+
+#: lib/Reservations/Admin/Settings/MessageTemplates.php:136
+msgid "Amount left to pay of this event/subscription"
+msgstr "Celková zbývající částka k zaplacení tohoto předplatného/akce"
+
+#: lib/Reservations/Admin/Settings/MessageTemplates.php:137
+msgid "URL to status of this payment"
+msgstr "URL adresa ke stránce se stavem platby a tlačítkem pro zaplacení"
+
+#: lib/Reservations/Admin/Settings/MessageTemplates.php:139
+msgid "Training Attributes"
+msgstr "Údaje o tréninku"
+
+#: lib/Reservations/Admin/Settings/MessageTemplates.php:140
+msgid "Name of the training group"
+msgstr "Jméno skupiny tréninků"
+
+#: lib/Reservations/Admin/Settings/MessageTemplates.php:141
+msgid "Age group (first letter uppercase)"
+msgstr "Věková skupina (první písmeno velké)"
+
+#: lib/Reservations/Admin/Settings/MessageTemplates.php:142
+msgid "Age group (all lowercase)"
+msgstr "Věková skupina (malá písmena)"
+
+#: lib/Reservations/Admin/Settings/MessageTemplates.php:144
+msgid "Gym with city (separated by comma)"
+msgstr "Tělocvična s městem (oddělené čárkou)"
+
+#: lib/Reservations/Admin/Settings/MessageTemplates.php:145
+msgid "Gym with full address"
+msgstr "Tělocvična s adresou"
+
+#: lib/Reservations/Admin/Settings/MessageTemplates.php:146
+msgid "List of trainings (see edit screen or subscription form)"
+msgstr "Seznam tréninků (viz registrační formulář)"
+
+#: lib/Reservations/Admin/Settings/MessageTemplates.php:148
+msgid "Event Attributes"
+msgstr "Údaje o akci"
+
+#: lib/Reservations/Admin/Settings/MessageTemplates.php:149
+msgid "Name of the event"
+msgstr "Název akce"
+
+#: lib/Reservations/Admin/Settings/MessageTemplates.php:150
+msgid "Event type (first letter uppercase)"
+msgstr "Typ akce (první písmeno velké)"
+
+#: lib/Reservations/Admin/Settings/MessageTemplates.php:151
+msgid "Event type (all lowercase)"
+msgstr "Typ akce (malá písmena)"
+
+#: lib/Reservations/Admin/Settings/MessageTemplates.php:153
+msgid "Other Attibutes"
+msgstr "Další údaje"
+
+#: lib/Reservations/Admin/Settings/MessageTemplates.php:154
+msgid "URL to prefilled registration form"
+msgstr "URL adresa k předvyplněnému registračnímu formuláři"
+
+#: lib/Reservations/Admin/Settings/MessageTemplates.php:155
+msgid "Account username (available only in account created email)"
+msgstr "Uživatelské jméno k nově vytvořenému účtu"
+
+#: lib/Reservations/Admin/Settings/MessageTemplates.php:156
+msgid "Account password (available only in account created email)"
+msgstr "Heslo k nově vytvořenému účtu"
+
+#: lib/Reservations/Admin/Settings/MessageTemplates.php:161
+msgid "Test Message Template"
+msgstr "Vyzkoušet šablonu emailu"
+
+#: lib/Reservations/Admin/Settings/MessageTemplates.php:165
+msgid "Message Template"
+msgstr "Šablona"
+
+#: lib/Reservations/Admin/Settings/MessageTemplates.php:176
+#: lib/Reservations/PageRouter.php:64
+msgid "Events"
+msgstr "Eventy"
+
+#: lib/Reservations/Admin/Settings/MessageTemplates.php:182
+msgid "Recipient"
+msgstr "Příjemce"
+
+#: lib/Reservations/Admin/Settings/MessageTemplates.php:187
+msgid "Save and send testing email"
+msgstr "Uložit nastavení a odeslat testovací email"
+
+#: lib/Reservations/Admin/Settings/MessageTemplates.php:239
+msgid "Test email successfully sent"
+msgstr "Testovací email byl úspěšně odeslán"
+
+#: lib/Reservations/Admin/Settings/MessageTemplates.php:245
+msgid "Invalid recipient"
+msgstr "Neplatný příjemce testovací zprávy"
+
+#: lib/Reservations/Admin/Settings/MessageTemplates.php:251
+msgid "No suitable objects found"
+msgstr "Nebyly nalezeny žádné tréninkové skupiny/akce odpovídajícího typu"
+
+#: lib/Reservations/Admin/Settings/MessageTemplates.php:257
+msgid "Test email couldn't be sent"
+msgstr "Během odesílání testovacího emailu se vyskytla chyba"
+
+#: lib/Reservations/Admin/SettingsPage.php:14
+msgid "Reservations Settings"
+msgstr "Nastavení rezervačního systému"
+
+#: lib/Reservations/Admin/SettingsPage.php:15
+msgid "Reservations"
+msgstr "Rezervační systém"
+
+#: lib/Reservations/Admin/SettingsPage.php:52
+msgid "Save Settings"
+msgstr "Uložit"
+
+#: lib/Reservations/Admin/Subscriptions.php:19
+#: lib/Reservations/Admin/Subscriptions.php:38
+msgid "Subscriptions"
+msgstr "Aktivní registrace"
+
+#: lib/Reservations/Admin/Subscriptions.php:87
+msgid "Application form was confirmed."
+msgstr "Přihláška byla potvrzena."
+
+#: lib/Reservations/Admin/Subscriptions.php:104
+msgid "Subscription was deleted."
+msgstr "Předplatné bylo smazáno."
+
+#: lib/Reservations/Admin/Subscriptions.php:143
+#, php-format
+msgid "Removed %d unpaid subscription."
+msgid_plural "Removed %d unpaid subscriptions."
+msgstr[0] "Odstraněno %d nezaplacené předplatné."
+msgstr[1] "Odstraněna %d nezaplacená předplatné."
+msgstr[2] "Odstraněno %d nezaplacených předplatných."
+
+#: lib/Reservations/Admin/Subscriptions/EditScreen.php:69
+#: lib/Reservations/Admin/SubscriptionsListTable.php:366
+#: lib/Reservations/Admin/SubscriptionsListTable.php:374
+#, php-format
+msgid "%d month left"
+msgid_plural "%d months left"
+msgstr[0] "zbývá %d měsíc"
+msgstr[1] "zbývají %d měsíce"
+msgstr[2] "zbývá %d měsíců"
+
+#: lib/Reservations/Admin/Subscriptions/EditScreen.php:153
+msgid "Edit Replacement"
+msgstr "Upravit náhradníka"
+
+#: lib/Reservations/Admin/Subscriptions/EditScreen.php:155
+msgctxt "event"
+msgid "Edit Subscription"
+msgstr "Upravit účastníka"
+
+#: lib/Reservations/Admin/Subscriptions/EditScreen.php:157
+msgid "Edit Subscription"
+msgstr "Upravit předplatné"
+
+#: lib/Reservations/Admin/Subscriptions/EditScreen.php:167
+msgid "Event Name"
+msgstr "Název akce"
+
+#: lib/Reservations/Admin/Subscriptions/EditScreen.php:203
+msgid "Payments"
+msgstr "Platby"
+
+#: lib/Reservations/Admin/Subscriptions/EditScreen.php:207
+msgid "Payment #"
+msgstr "Číslo platby"
+
+#: lib/Reservations/Admin/Subscriptions/EditScreen.php:210
+msgid "To Pay Amount"
+msgstr "Částka k zaplacení"
+
+#: lib/Reservations/Admin/Subscriptions/EditScreen.php:211
+msgid "Transaction ID"
+msgstr "ID transakce"
+
+#: lib/Reservations/Admin/Subscriptions/EditScreen.php:218
+#: lib/Reservations/Admin/Subscriptions/EditScreen.php:219
+#: lib/Reservations/Admin/Subscriptions/EditScreen.php:220
+#: lib/Reservations/Pages/Subscribe.php:570
+#: lib/Reservations/Pages/Subscribe.php:573
+#: lib/Reservations/Pages/Subscribe.php:576
+#: lib/Reservations/PostTypes/Training.php:366
+#: lib/Reservations/Taxonomies/Gym.php:261
+#: lib/Reservations/Taxonomies/Gym.php:286
+#: lib/Reservations/Taxonomies/Gym.php:350
+#: lib/Reservations/Taxonomies/Gym.php:375
+#: lib/Reservations/Taxonomies/Gym.php:438
+#: lib/Reservations/Taxonomies/TrainingGroup.php:151
+#: lib/Reservations/Taxonomies/TrainingGroup.php:346
+#: lib/Reservations/Utils/Html.php:213 lib/Reservations/Utils/Html.php:238
+#: public/events/events.php:76 public/payment.php:20 public/payment.php:24
+#: public/subscribe-lead.php:155 public/subscribe-lead.php:156
+#: public/subscribe.php:172 public/subscribe.php:173 public/training.php:14
+msgid "US$"
+msgstr "Kč"
+
+#: lib/Reservations/Admin/Subscriptions/EditScreen.php:224
+msgid "Mark as paid"
+msgstr "Označit jako zaplacené"
+
+#: lib/Reservations/Admin/Subscriptions/EditScreen.php:225
+msgid "Unmark"
+msgstr "Odznačit"
+
+#: lib/Reservations/Admin/Subscriptions/EditScreen.php:227
+msgid "unknown payment &ndash; template not found"
+msgstr "neznámá platba &ndash; šablona nenalezena"
+
+#: lib/Reservations/Admin/Subscriptions/EditScreen.php:235
+msgid "Mark all as paid"
+msgstr "Označit všechny jako zaplacené"
+
+#: lib/Reservations/Admin/Subscriptions/EditScreen.php:239
+msgid "Unmark all"
+msgstr "Odznačit vše"
+
+#: lib/Reservations/Admin/Subscriptions/EditScreen.php:243
+msgid "Autoassign unknown payments (by amount)"
+msgstr "Automaticky přiřadit neznámé platby (podle částky)"
+
+#: lib/Reservations/Admin/Subscriptions/EditScreen.php:498
+#: public/events/subscribe-lead.php:19 public/events/subscribe.php:19
+#: public/subscribe-lead.php:23 public/subscribe.php:19
+msgid "Subscriber Details"
+msgstr "Osobní údaje dítěte"
+
+#: lib/Reservations/Admin/Subscriptions/EditScreen.php:510
+#: lib/Reservations/Admin/Subscriptions/EditScreen.php:657
+#: lib/Reservations/Pages/Events/Subscribe.php:286
+#: lib/Reservations/Pages/Events/Subscribe.php:317
+#: lib/Reservations/Pages/Subscribe.php:262
+#: lib/Reservations/Pages/Subscribe.php:275 public/events/subscribe-lead.php:32
+#: public/events/subscribe.php:32 public/events/subscribe.php:95
+#: public/subscribe-lead.php:36 public/subscribe.php:32 public/subscribe.php:85
+msgid "Date of Birth"
+msgstr "Datum narození"
+
+#: lib/Reservations/Admin/Subscriptions/EditScreen.php:546
+#: public/events/subscribe-lead.php:47 public/events/subscribe.php:63
+msgid "Swimmer"
+msgstr "Plavec (= uplave alespoň 100 m)"
+
+#: lib/Reservations/Admin/Subscriptions/EditScreen.php:564
+#: public/subscribe-lead.php:58
+msgid "Independent Leave"
+msgstr "Dítě může po skončení tréninku samo domů"
+
+#: lib/Reservations/Admin/Subscriptions/EditScreen.php:576
+#: public/subscribe.php:64
+msgid "Preferred Level"
+msgstr "Preferovaná úroveň"
+
+#: lib/Reservations/Admin/Subscriptions/EditScreen.php:587
+#: public/events/subscribe.php:136
+msgid "Selected Meal"
+msgstr "Výběr oběda"
+
+#: lib/Reservations/Admin/Subscriptions/EditScreen.php:622
+#: public/events/subscribe.php:181
+msgctxt "camp"
+msgid "Reason"
+msgstr "Co vás vedlo k výběru právě tohoto turnusu?"
+
+#: lib/Reservations/Admin/Subscriptions/EditScreen.php:624
+#: public/events/subscribe.php:183
+msgid "Reason"
+msgstr "Co vás vedlo k výběru právě tohoto turnusu (akce)?"
+
+#: lib/Reservations/Admin/Subscriptions/EditScreen.php:631
+msgid "Application Form Received"
+msgstr "Přihláška potvrzena"
+
+#: lib/Reservations/Admin/Subscriptions/EditScreen.php:636
+msgid "Registration Date"
+msgstr "Datum a čas registrace"
+
+#: lib/Reservations/Admin/Subscriptions/EditScreen.php:643
+#: public/events/subscribe-lead.php:65 public/events/subscribe.php:82
+#: public/subscribe-lead.php:64 public/subscribe.php:72
+msgid "Subscriber Representative Details"
+msgstr "Osobní údaje zákonného zástupce"
+
+#: lib/Reservations/Admin/Subscriptions/EditScreen.php:668
+#: lib/Reservations/PostTypes/Event.php:211
+#: lib/Reservations/PostTypes/Training.php:301
+msgid "Contact Info"
+msgstr "Kontaktní informace"
+
+#: lib/Reservations/Admin/Subscriptions/EditScreen.php:699
+#: public/subscribe-lead.php:111 public/subscribe.php:128
+msgid "List of Trainings"
+msgstr "Seznam tréninků"
+
+#: lib/Reservations/Admin/Subscriptions/EditScreen.php:702
+msgid "This subscription applies to the following trainings:"
+msgstr "Registrace se vztahuje na tyto tréninky:"
+
+#: lib/Reservations/Admin/Subscriptions/EditScreen.php:717
+msgid "There are no trainings in this training group."
+msgstr "V aktuální skupině tréninků nejsou žádné tréninky."
+
+#: lib/Reservations/Admin/Subscriptions/SubscriptionsBase.php:110
+msgid "Subscription updated."
+msgstr "Předplatné bylo aktualizováno."
+
+#: lib/Reservations/Admin/SubscriptionsListTable.php:60
+msgid "Search"
+msgstr "Hledat"
+
+#: lib/Reservations/Admin/SubscriptionsListTable.php:70
+msgid "Full Name"
+msgstr "Celé jméno"
+
+#: lib/Reservations/Admin/SubscriptionsListTable.php:72
+msgctxt "subscriptions"
+msgid "Training Group"
+msgstr "Skupina tréninků"
+
+#: lib/Reservations/Admin/SubscriptionsListTable.php:267
+msgid "No subscriptions found."
+msgstr "Nebyla nalezena žádná aktivní předplatné."
+
+#: lib/Reservations/Admin/SubscriptionsListTable.php:291
+#: public/events/events.php:12
+msgid "All"
+msgstr "Všechny"
+
+#: lib/Reservations/Admin/SubscriptionsListTable.php:296
+msgid "Paid"
+msgstr "Zaplacené"
+
+#: lib/Reservations/Admin/SubscriptionsListTable.php:301
+msgid "With Application Form"
+msgstr "S potvrzenou přihláškou"
+
+#: lib/Reservations/Admin/SubscriptionsListTable.php:329
+msgid "Confirm application form"
+msgstr "Potvrdit přihlášku"
+
+#: lib/Reservations/Admin/SubscriptionsListTable.php:335
+msgid "Really?"
+msgstr "Opravdu?"
+
+#: lib/Reservations/Admin/SubscriptionsListTable.php:383
+#, php-format
+msgid "%d months"
+msgid_plural "%d months"
+msgstr[0] "%d měsíc"
+msgstr[1] "%d měsíce"
+msgstr[2] "%d měsíců"
+
+#: lib/Reservations/Admin/SubscriptionsListTable.php:430
+#: lib/Reservations/PostTypes/Training.php:88
+#: lib/Reservations/Taxonomies/TrainingGroup.php:551
+msgid "&mdash; Gym &mdash;"
+msgstr "&mdash; Tělocvična &mdash;"
+
+#: lib/Reservations/Admin/SubscriptionsListTable.php:434
+#: lib/Reservations/PostTypes/Training.php:93
+msgid "&mdash; Training Group &mdash;"
+msgstr "&mdash; Skupina tréninků &mdash;"
+
+#: lib/Reservations/Admin/SubscriptionsListTable.php:438
+msgid "&mdash; Age Group &mdash;"
+msgstr "&mdash; Věková skupina &mdash;"
+
+#: lib/Reservations/Admin/SubscriptionsListTable.php:443
+msgid "&mdash; Subscription Type &mdash;"
+msgstr "&mdash; Typ registrace &mdash;"
+
+#: lib/Reservations/Mail/MessageTemplateTester.php:37
+msgctxt "mock first name"
+msgid "John"
+msgstr "Šimon"
+
+#: lib/Reservations/Mail/MessageTemplateTester.php:38
+msgctxt "mock last name"
+msgid "Doe"
+msgstr "Stránský"
+
+#: lib/Reservations/Mail/MessageTemplateTester.php:39
+msgctxt "mock addres"
+msgid "1632 Henery Street, Andover"
+msgstr "Mišákova 351/13, 779 00 Olomouc"
+
+#: lib/Reservations/Mail/MessageTemplateTester.php:41
+msgctxt "mock personal number"
+msgid "021110/1234"
+msgstr "021110/1234"
+
+#: lib/Reservations/Mail/MessageTemplateTester.php:42
+msgctxt "mock health restrictions"
+msgid "no health restrictions"
+msgstr "Žádná zdravotní omezení"
+
+#: lib/Reservations/Mail/MessageTemplateTester.php:43
+msgctxt "mock used medicine"
+msgid "no medicaments"
+msgstr "Žádné léky"
+
+#: lib/Reservations/Mail/MessageTemplateTester.php:44
+msgctxt "mock health insurance code"
+msgid "100"
+msgstr "100"
+
+#: lib/Reservations/Mail/MessageTemplateTester.php:46
+msgctxt "mock rep first name"
+msgid "Jane"
+msgstr "Blanka"
+
+#: lib/Reservations/Mail/MessageTemplateTester.php:47
+msgctxt "mock rep last name"
+msgid "Doe"
+msgstr "Stránská"
+
+#: lib/Reservations/Mail/MessageTemplateTester.php:48
+msgctxt "mock rep addres"
+msgid "1632 Henery Street, Andover"
+msgstr "Mišákova 351/13, 779 00 Olomouc"
+
+#: lib/Reservations/Mail/MessageTemplateTester.php:51
+msgctxt "mock email"
+msgid "jane.doe@example.com"
+msgstr "blanka.stranska@example.com"
+
+#: lib/Reservations/Mail/MessageTemplateTester.php:52
+msgctxt "mock phone"
+msgid "785-550-8837"
+msgstr "+420 123 456 789"
+
+#: lib/Reservations/Mail/MessageTemplateTester.php:53
+msgctxt "mock phone 2"
+msgid "509-470-8891"
+msgstr "+420 789 456 123"
+
+#: lib/Reservations/Mail/MessageTemplateTester.php:100
+msgctxt "mock pay url"
+msgid "http://example.com/"
+msgstr "http://example.com/"
+
+#: lib/Reservations/Mail/MessageTemplateTester.php:108
+#: lib/Reservations/Models/Payment.php:286
+#: lib/Reservations/Models/Subscription.php:495
+msgctxt "attachment file name"
+msgid "application_form.pdf"
+msgstr "Přihláška.pdf"
+
+#: lib/Reservations/Models/Event.php:260
+#: lib/Reservations/Models/TrainingGroup.php:234
+#: lib/Reservations/PageRouter.php:222 lib/Reservations/PageRouter.php:229
+#: lib/Reservations/PageRouter.php:238
+#: lib/Reservations/Pages/Utils/SubscriberAccount.php:149
+msgctxt "url slug"
+msgid "subscribe"
+msgstr "registrace"
+
+#: lib/Reservations/Models/Local/TranslatableEnums.php:15
+msgctxt "preferred level"
+msgid "beginner"
+msgstr "začátečník"
+
+#: lib/Reservations/Models/Local/TranslatableEnums.php:16
+msgctxt "preferred level"
+msgid "intermediate"
+msgstr "mírně pokročilý"
+
+#: lib/Reservations/Models/Local/TranslatableEnums.php:17
+msgctxt "preferred level"
+msgid "advanced"
+msgstr "pokročilý"
+
+#: lib/Reservations/Models/Local/TranslatableEnums.php:24
+msgid "annual"
+msgstr "roční"
+
+#: lib/Reservations/Models/Local/TranslatableEnums.php:25
+msgid "biannual"
+msgstr "pololetní"
+
+#: lib/Reservations/Models/Local/TranslatableEnums.php:26
+msgid "monthly"
+msgstr "měsíční"
+
+#: lib/Reservations/Models/Local/TranslatableEnums.php:27
+msgid "one time"
+msgstr "jednorázové"
+
+#: lib/Reservations/Models/Local/TranslatableEnums.php:34
+msgid "annual subscription"
+msgstr "roční registrace"
+
+#: lib/Reservations/Models/Local/TranslatableEnums.php:35
+msgid "biannual subscription"
+msgstr "pololetní registrace"
+
+#: lib/Reservations/Models/Local/TranslatableEnums.php:36
+msgid "monthly subscription"
+msgstr "měsíční registrace"
+
+#: lib/Reservations/Models/Local/TranslatableEnums.php:37
+msgid "one time subscription"
+msgstr "jednorázové předplatné"
+
+#: lib/Reservations/Models/Local/TranslatableEnums.php:44
+msgid "Yes"
+msgstr "Ano"
+
+#: lib/Reservations/Models/Local/TranslatableEnums.php:45
+msgid "No"
+msgstr "Ne"
+
+#: lib/Reservations/Models/Local/TranslatableEnums.php:52
+msgid "trip"
+msgstr "pobytový"
+
+#: lib/Reservations/Models/Local/TranslatableEnums.php:53
+msgid "suburban"
+msgstr "příměstský"
+
+#: lib/Reservations/Models/Local/TranslatableEnums.php:60
+msgid "122 (6-7 years)"
+msgstr "122 (6-7 let)"
+
+#: lib/Reservations/Models/Local/TranslatableEnums.php:61
+msgid "134 (8-9 years)"
+msgstr "134 (8-9 let)"
+
+#: lib/Reservations/Models/Local/TranslatableEnums.php:62
+msgid "146 (10-11 years)"
+msgstr "146 (10-11 let)"
+
+#: lib/Reservations/Models/Local/TranslatableEnums.php:63
+msgid "158 (12-13 years)"
+msgstr "158 (12-13 let)"
+
+#: lib/Reservations/Models/Local/TranslatableEnums.php:64
+#: lib/Reservations/Models/Local/TranslatableEnums.php:78
+msgid "XS"
+msgstr "XS"
+
+#: lib/Reservations/Models/Local/TranslatableEnums.php:65
+#: lib/Reservations/Models/Local/TranslatableEnums.php:79
+msgid "S"
+msgstr "S"
+
+#: lib/Reservations/Models/Local/TranslatableEnums.php:66
+#: lib/Reservations/Models/Local/TranslatableEnums.php:80
+msgid "M"
+msgstr "M"
+
+#: lib/Reservations/Models/Local/TranslatableEnums.php:67
+#: lib/Reservations/Models/Local/TranslatableEnums.php:81
+msgid "L"
+msgstr "L"
+
+#: lib/Reservations/Models/Local/TranslatableEnums.php:68
+#: lib/Reservations/Models/Local/TranslatableEnums.php:82
+msgid "XL"
+msgstr "XL"
+
+#: lib/Reservations/Models/Local/TranslatableEnums.php:69
+msgid "XXL"
+msgstr "XXL"
+
+#: lib/Reservations/Models/Local/TranslatableEnums.php:76
+msgid "children 148"
+msgstr "dětské 148"
+
+#: lib/Reservations/Models/Local/TranslatableEnums.php:77
+msgid "children 156"
+msgstr "dětské 156"
+
+#: lib/Reservations/Models/Local/TranslatableEnums.php:89
+msgctxt "referrer"
+msgid "training"
+msgstr "na tréninku"
+
+#: lib/Reservations/Models/Local/TranslatableEnums.php:90
+msgctxt "referrer"
+msgid "web"
+msgstr "z webu"
+
+#: lib/Reservations/Models/Local/TranslatableEnums.php:91
+msgctxt "referrer"
+msgid "facebook"
+msgstr "z Facebooku"
+
+#: lib/Reservations/Models/Local/TranslatableEnums.php:92
+msgctxt "referrer"
+msgid "email"
+msgstr "z emailu"
+
+#: lib/Reservations/Models/Local/TranslatableEnums.php:93
+msgctxt "referrer"
+msgid "other"
+msgstr "jiné"
+
+#: lib/Reservations/Models/Local/TranslatableEnums.php:100
+msgctxt "event"
+msgid "date"
+msgstr "termín"
+
+#: lib/Reservations/Models/Local/TranslatableEnums.php:101
+msgid "location"
+msgstr "místo"
+
+#: lib/Reservations/Models/Local/TranslatableEnums.php:102
+msgid "better accessibility in case of need"
+msgstr "lepší dostupnost v případě potřeby"
+
+#: lib/Reservations/Models/Local/TranslatableEnums.php:103
+msgid "wanted to try new location"
+msgstr "Loni jsem byl jinde, letos chci zkusit něco nového"
+
+#: lib/Reservations/Models/Local/TranslatableEnums.php:104
+msgid "other"
+msgstr "jiné"
+
+#: lib/Reservations/Models/Local/TranslatableEnums.php:111
+msgid "improve my skills"
+msgstr "chci se celkově zlepšit v parkouru a pořádně si zatrénovat"
+
+#: lib/Reservations/Models/Local/TranslatableEnums.php:112
+msgid "new techniques"
+msgstr "chci se naučit nové techniky"
+
+#: lib/Reservations/Models/Local/TranslatableEnums.php:113
+msgid "improve physical condition"
+msgstr "chci si zlepšit svou fyzickou kondici"
+
+#: lib/Reservations/Models/Local/TranslatableEnums.php:114
+msgid "friends and community"
+msgstr "kvůli komunitě - přátelům"
+
+#: lib/Reservations/Models/Local/TranslatableEnums.php:115
+msgid "new information"
+msgstr "chci se dozvědět nové informace z přednášek či diskuzí"
+
+#: lib/Reservations/Models/Local/TranslatableEnums.php:116
+msgid "overcome my limits"
+msgstr "chci překonat své hranice"
+
+#: lib/Reservations/Models/Local/TranslatableEnums.php:117
+msgid "meet experienced people"
+msgstr "chci se potkat se zkušenými trenéry a parkouristy z Improve Yourself"
+
+#: lib/Reservations/Models/Local/TranslatableEnums.php:118
+msgid "fun"
+msgstr "kvůli zábavě"
+
+#: lib/Reservations/Models/Local/TranslatableEnums.php:125
+msgid "without catering"
+msgstr "nechci kompletní stravování a pitný režim"
+
+#: lib/Reservations/Models/Local/TranslatableEnums.php:126
+msgid ""
+"complete catering (breakfast, lunch, dinner, snack, second dinner) and fluid "
+"intake"
+msgstr ""
+"kompletní stravování (1x snídaně, 1x oběd, 1x večeře, 1x svačina, 1x druhá "
+"večeře) a pitný režim"
+
+#: lib/Reservations/Models/Local/TranslatableEnums.php:133
+msgid "no carpool"
+msgstr "nechci nabízet ani využívat možnosti spolujízdy"
+
+#: lib/Reservations/Models/Local/TranslatableEnums.php:134
+msgid "I want to offer carpool"
+msgstr "rád/a bych nabídl/a spolujízdu"
+
+#: lib/Reservations/Models/Local/TranslatableEnums.php:135
+msgid "I want to request carpool"
+msgstr "rád/a bych využil/a možnosti spolujízdy"
+
+#: lib/Reservations/Models/Local/TranslatableEnums.php:142
+msgctxt "application form"
+msgid "no carpool"
+msgstr "ne"
+
+#: lib/Reservations/Models/Local/TranslatableEnums.php:143
+msgctxt "application form"
+msgid "I want to offer carpool"
+msgstr "nabízím spolujízdu"
+
+#: lib/Reservations/Models/Local/TranslatableEnums.php:144
+msgctxt "application form"
+msgid "I want to request carpool"
+msgstr "chci využít spolujízdu"
+
+#: lib/Reservations/Models/Local/TranslatableEnums.php:151
+msgid "meal option 1 (chicken)"
+msgstr ""
+
+#: lib/Reservations/Models/Local/TranslatableEnums.php:152
+msgid "meal option 2 (fried cheese)"
+msgstr ""
+
+#: lib/Reservations/Models/Local/TranslatableEnums.php:159
+msgid "sunday"
+msgstr "neděle"
+
+#: lib/Reservations/Models/Local/TranslatableEnums.php:160
+msgid "monday"
+msgstr "pondělí"
+
+#: lib/Reservations/Models/Local/TranslatableEnums.php:161
+msgid "tuesday"
+msgstr "úterý"
+
+#: lib/Reservations/Models/Local/TranslatableEnums.php:162
+msgid "wednesday"
+msgstr "středa"
+
+#: lib/Reservations/Models/Local/TranslatableEnums.php:163
+msgid "thursday"
+msgstr "čtvrtek"
+
+#: lib/Reservations/Models/Local/TranslatableEnums.php:164
+msgid "friday"
+msgstr "pátek"
+
+#: lib/Reservations/Models/Local/TranslatableEnums.php:165
+msgid "saturday"
+msgstr "sobota"
+
+#: lib/Reservations/Models/Payment.php:251 lib/Reservations/PageRouter.php:219
+#: lib/Reservations/PageRouter.php:232 lib/Reservations/PageRouter.php:241
+#: lib/Reservations/Pages/Payment.php:131
+msgctxt "url slug"
+msgid "payment"
+msgstr "platba"
+
+#: lib/Reservations/Models/Subscription.php:457
+#, php-format
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] "%d den"
+msgstr[1] "%d dny"
+msgstr[2] "%d dní"
+
+#: lib/Reservations/PageRouter.php:217 lib/Reservations/PageRouter.php:230
+#: lib/Reservations/PageRouter.php:239
+#: lib/Reservations/Pages/Events/Subscribe.php:466
+#: lib/Reservations/Pages/Payment.php:102
+#: lib/Reservations/Pages/Subscribe.php:452
+#: lib/Reservations/Pages/ThankYou.php:102
+msgctxt "url slug"
+msgid "ajax"
+msgstr "ajax"
+
+#: lib/Reservations/PageRouter.php:218 lib/Reservations/PageRouter.php:231
+#: lib/Reservations/PageRouter.php:240
+#: lib/Reservations/Pages/Events/Subscribe.php:465
+#: lib/Reservations/Pages/Events/Subscribe.php:513
+#: lib/Reservations/Pages/Payment.php:53 lib/Reservations/Pages/Payment.php:101
+#: lib/Reservations/Pages/Subscribe.php:451
+#: lib/Reservations/Pages/Subscribe.php:534
+msgctxt "url slug"
+msgid "thank-you"
+msgstr "dekujeme"
+
+#: lib/Reservations/Pages/Ajax.php:62
+msgctxt "downloaded file name"
+msgid "application_form.pdf"
+msgstr "Přihláška.pdf"
+
+#: lib/Reservations/Pages/Events/Subscribe.php:278
+#: lib/Reservations/Pages/Events/Subscribe.php:282
+#: lib/Reservations/Pages/Events/Subscribe.php:290
+#: lib/Reservations/Pages/Events/Subscribe.php:295
+#: lib/Reservations/Pages/Events/Subscribe.php:303
+#: lib/Reservations/Pages/Events/Subscribe.php:309
+#: lib/Reservations/Pages/Events/Subscribe.php:313
+#: lib/Reservations/Pages/Subscribe.php:254
+#: lib/Reservations/Pages/Subscribe.php:258
+#: lib/Reservations/Pages/Subscribe.php:266
+#: lib/Reservations/Pages/Subscribe.php:271
+#, php-format
+msgid "Please fill %s."
+msgstr "Vyplňte prosím %s."
+
+#: lib/Reservations/Pages/Events/Subscribe.php:286
+#: lib/Reservations/Pages/Subscribe.php:262
+#: lib/Reservations/Pages/Subscribe.php:302
+#: lib/Reservations/Pages/Subscribe.php:307
+#, php-format
+msgid "Please fill %s in correct format."
+msgstr "Vyplňte prosím %s ve správném formátu."
+
+#: lib/Reservations/Pages/Events/Subscribe.php:295
+msgid "Carsharing Number of Seats"
+msgstr "Počet míst, jež mohu nabídnout nebo požaduji"
+
+#: lib/Reservations/Pages/Events/Subscribe.php:317
+#: lib/Reservations/Pages/Events/Subscribe.php:338
+#: lib/Reservations/Pages/Subscribe.php:275
+#: lib/Reservations/Pages/Subscribe.php:294
+#, php-format
+msgid "Please fill representative %s in correct format."
+msgstr "Vyplňte prosím %s zákonného zástupce ve správném formátu."
+
+#: lib/Reservations/Pages/Events/Subscribe.php:321
+#: lib/Reservations/Pages/Events/Subscribe.php:326
+#: lib/Reservations/Pages/Events/Subscribe.php:330
+#: lib/Reservations/Pages/Events/Subscribe.php:334
+#: lib/Reservations/Pages/Events/Subscribe.php:342
+#: lib/Reservations/Pages/Subscribe.php:282
+#: lib/Reservations/Pages/Subscribe.php:286
+#: lib/Reservations/Pages/Subscribe.php:290
+#: lib/Reservations/Pages/Subscribe.php:298
+#, php-format
+msgid "Please fill representative %s."
+msgstr "Vyplňte prosím %s zákonného zástupce."
+
+#: lib/Reservations/Pages/Events/Subscribe.php:346
+#: lib/Reservations/Pages/Subscribe.php:316
+msgid "You have to agree with the Privacy Policy"
+msgstr "Musíte souhlasit s poučením o zpracování osobních údajů"
+
+#: lib/Reservations/Pages/Events/Subscribe.php:423
+#: lib/Reservations/Pages/Payment.php:82
+msgid "Subscription for"
+msgstr "Registrace na"
+
+#: lib/Reservations/Pages/Events/Subscribe.php:427
+msgid "This event is already full."
+msgstr "Tato akce je již plně obsazena."
+
+#: lib/Reservations/Pages/Events/Subscribe.php:432
+#: lib/Reservations/Pages/Events/Subscribe.php:492
+#: lib/Reservations/Pages/Subscribe.php:416
+#: lib/Reservations/Pages/Subscribe.php:509
+msgid "Invalid subscription price."
+msgstr "Neplatná cena registrace."
+
+#: lib/Reservations/Pages/Events/Subscribe.php:461
+#: lib/Reservations/Pages/Payment.php:97
+#: lib/Reservations/Pages/Subscribe.php:447
+msgid "L.E.A.D. Parkour subscription"
+msgstr "Předplatné L.E.A.D. Parkour"
+
+#: lib/Reservations/Pages/Events/Subscribe.php:473
+#: lib/Reservations/Pages/Payment.php:109
+#: lib/Reservations/Pages/Subscribe.php:459
+msgid "An error occured during payment."
+msgstr "Během platby se vyskytla chyba."
+
+#: lib/Reservations/Pages/Events/Subscribe.php:487
+msgid ""
+"This event is still available. Why don't you subscribe as regular "
+"participant?"
+msgstr ""
+"Stále jsou volná nějaká místa. Zaregistrujte se prosím jako běžný účastník."
+
+#: lib/Reservations/Pages/Events/Subscribe.php:528
+#, php-format
+msgid "Pay deposit %s US$ (total price: %s US$)"
+msgstr "Zaplatit zálohu %s Kč (celková cena: %s Kč)"
+
+#: lib/Reservations/Pages/Events/Subscribe.php:530
+#: public/subscribe-lead.php:192 public/subscribe.php:213
+#, php-format
+msgid "Pay %s US$"
+msgstr "Zaregistrovat se a zaplatit %s Kč"
+
+#: lib/Reservations/Pages/Events/Subscribe.php:544
+msgid ">> [CARSHARING DESCRIPTION] <<"
+msgstr ""
+"Vzhledem k tomu, že na soustředění přijíždějí parkouristi a parkouristky z "
+"různých měst a často společně s rodiči, kteří je vezou autem, je možno "
+"využít spolujízdy z určitého města, pokud má řidič volné místo v autě.\n"
+"\n"
+"Máte-li tedy Vy (rodiče) volné místo v autě, kterého by jste rádi využili "
+"nebo naopak byste rádi spolujízdy pro Vaše děti využili, tak stačí jen "
+"správně vyplnit potřebné údaje v této části.\n"
+"\n"
+"Rádi bychom Vám tímto ušetřili alespoň trochu času, energie i peněz! :)"
+
+#: lib/Reservations/Pages/Events/Subscribe.php:546
+#: lib/Reservations/Pages/Subscribe.php:655
+msgctxt "link"
+msgid "Privacy Policy"
+msgstr "Zásady zpracování osobních údajů"
+
+#: lib/Reservations/Pages/Events/Subscribe.php:548
+#: lib/Reservations/Pages/Subscribe.php:657
+msgid ">> [GDPR CONTENT] <<"
+msgstr ""
+"Vyplněním Vašich osobních údajů do kontaktního formuláře a jeho následným "
+"odesláním vyjadřujete svůj souhlas se zpracováním Vašich osobních údajů. "
+"Další informace naleznete na stránce %s."
+
+#: lib/Reservations/Pages/Events/Subscribe.php:549
+#: lib/Reservations/Pages/Subscribe.php:658
+msgid ">> [GDPR CONTENT 2] <<"
+msgstr ""
+
+#: lib/Reservations/Pages/Payment.php:44 lib/Reservations/Pages/ThankYou.php:58
+msgid "Failed to get subscription info."
+msgstr "Nepodařilo se získat informace o předplatném."
+
+#: lib/Reservations/Pages/Payment.php:59
+msgid "Payment hasn't been created yet."
+msgstr "Platba ještě nebyla vytvořena."
+
+#: lib/Reservations/Pages/Payment.php:64 lib/Reservations/Pages/ThankYou.php:72
+msgid "Payment was refunded."
+msgstr "Platba byla refundována."
+
+#: lib/Reservations/Pages/Payment.php:66
+msgid "Payment was created. Waiting for transaction clearance."
+msgstr "Transakce byla vytvořena. Čekání na dokončení platby."
+
+#: lib/Reservations/Pages/Payment.php:68
+msgid "Payment was cancelled."
+msgstr "Platba byla stornována."
+
+#: lib/Reservations/Pages/Payment.php:70
+msgid "Unknown status."
+msgstr "Neznámý stav."
+
+#: lib/Reservations/Pages/Payment.php:86
+#: lib/Reservations/Pages/Subscribe.php:377
+#: lib/Reservations/Pages/Subscribe.php:472
+#, php-format
+msgid "L.E.A.D. Parkour subscription for %d month"
+msgid_plural "L.E.A.D. Parkour subscription for %d months"
+msgstr[0] "Předplatné L.E.A.D. Parkour na jeden měsíc"
+msgstr[1] "Předplatné L.E.A.D. Parkour na %d měsíce"
+msgstr[2] "Předplatné L.E.A.D. Parkour na %d měsíců"
+
+#: lib/Reservations/Pages/Payment.php:88
+#: lib/Reservations/Pages/Subscribe.php:381
+#: lib/Reservations/Pages/Subscribe.php:476
+msgid "L.E.A.D. Parkour biannual subscription"
+msgstr "Pololetní předplatné L.E.A.D. Parkour"
+
+#: lib/Reservations/Pages/Payment.php:90
+#: lib/Reservations/Pages/Subscribe.php:392
+#: lib/Reservations/Pages/Subscribe.php:487
+msgid "L.E.A.D. Parkour annual subscription"
+msgstr "Roční předplatné L.E.A.D. Parkour"
+
+#: lib/Reservations/Pages/Subscribe.php:302
+msgid "Number of Months"
+msgstr "Počet měsíců"
+
+#: lib/Reservations/Pages/Subscribe.php:307
+#: lib/Reservations/Pages/Subscribe.php:311 public/subscribe-lead.php:168
+#: public/subscribe.php:185
+msgid "Subscription Start"
+msgstr "Počátek registrace"
+
+#: lib/Reservations/Pages/Subscribe.php:311
+#, php-format
+msgid "%s must be in the future."
+msgstr "%s musí být v budoucnosti."
+
+#: lib/Reservations/Pages/Subscribe.php:406
+#: lib/Reservations/Pages/Subscribe.php:499 public/subscribe.php:196
+msgid "Subscription end date must be before the end of the current term."
+msgstr "Předplatné musí končit nejpozději ke konci aktuálního pololetí."
+
+#: lib/Reservations/Pages/Subscribe.php:411
+msgid ""
+"These trainings are full on the selected date. Please try a different one."
+msgstr "Tyto tréninky jsou v zadaném období již naplněny."
+
+#: lib/Reservations/Pages/Subscribe.php:504
+msgid ""
+"These trainings are available on the selected date. Why don't you subscribe "
+"as regular participant?"
+msgstr ""
+"Tyto tréninky jsou v zadaném období volné. Zaregistrujte se prosím jako "
+"běžný účastník."
+
+#: lib/Reservations/Pages/Subscribe.php:566
+msgid "US$/month"
+msgstr "Kč/měs."
+
+#: lib/Reservations/Pages/Subscribe.php:571 public/subscribe-lead.php:156
+#: public/subscribe.php:173
+msgid "deposit"
+msgstr "záloha"
+
+#: lib/Reservations/Pages/ThankYou.php:65
+msgid "Failed to get payment info."
+msgstr "Nepodařilo se získat informace o platbě."
+
+#: lib/Reservations/Pages/ThankYou.php:74
+msgid "Payment was cancelled or timed out."
+msgstr "Vypršel časový limit na platbu, nebo byla platba stornována."
+
+#: lib/Reservations/Pages/ThankYou.php:76
+msgid "Payment method hasn't been chosen yet."
+msgstr "Platba byla vytvořena, ale nebyla vybrána platební metoda."
+
+#: lib/Reservations/Pages/ThankYou.php:78
+msgid "Payment hasn't been completed."
+msgstr "Platba nebyla dokončena."
+
+#: lib/Reservations/Pages/Training.php:53 lib/Reservations/Utils.php:517
+#, php-format
+msgctxt "sunday"
+msgid "every %s"
+msgstr "každou %s"
+
+#: lib/Reservations/Pages/Training.php:53 lib/Reservations/Utils.php:517
+msgctxt "training view"
+msgid "sunday"
+msgstr "neděli"
+
+#: lib/Reservations/Pages/Training.php:54 lib/Reservations/Utils.php:518
+#, php-format
+msgctxt "monday"
+msgid "every %s"
+msgstr "každé %s"
+
+#: lib/Reservations/Pages/Training.php:54 lib/Reservations/Utils.php:518
+msgctxt "training view"
+msgid "monday"
+msgstr "pondělí"
+
+#: lib/Reservations/Pages/Training.php:55 lib/Reservations/Utils.php:519
+#, php-format
+msgctxt "tuesday"
+msgid "every %s"
+msgstr "každé %s"
+
+#: lib/Reservations/Pages/Training.php:55 lib/Reservations/Utils.php:519
+msgctxt "training view"
+msgid "tuesday"
+msgstr "úterý"
+
+#: lib/Reservations/Pages/Training.php:56 lib/Reservations/Utils.php:520
+#, php-format
+msgctxt "wednesday"
+msgid "every %s"
+msgstr "každou %s"
+
+#: lib/Reservations/Pages/Training.php:56 lib/Reservations/Utils.php:520
+msgctxt "training view"
+msgid "wednesday"
+msgstr "středu"
+
+#: lib/Reservations/Pages/Training.php:57 lib/Reservations/Utils.php:521
+#, php-format
+msgctxt "thursday"
+msgid "every %s"
+msgstr "každý %s"
+
+#: lib/Reservations/Pages/Training.php:57 lib/Reservations/Utils.php:521
+msgctxt "training view"
+msgid "thursday"
+msgstr "čtvrtek"
+
+#: lib/Reservations/Pages/Training.php:58 lib/Reservations/Utils.php:522
+#, php-format
+msgctxt "friday"
+msgid "every %s"
+msgstr "každý %s"
+
+#: lib/Reservations/Pages/Training.php:58 lib/Reservations/Utils.php:522
+msgctxt "training view"
+msgid "friday"
+msgstr "pátek"
+
+#: lib/Reservations/Pages/Training.php:59 lib/Reservations/Utils.php:523
+#, php-format
+msgctxt "saturday"
+msgid "every %s"
+msgstr "každou %s"
+
+#: lib/Reservations/Pages/Training.php:59 lib/Reservations/Utils.php:523
+msgctxt "training view"
+msgid "saturday"
+msgstr "sobotu"
+
+#: lib/Reservations/Pages/Training.php:66 lib/Reservations/Utils.php:529
+#, php-format
+msgid "%s from %s to %s"
+msgstr "%s od %s do %s"
+
+#: lib/Reservations/Pages/Training.php:75 lib/Reservations/Utils.php:534
+msgid "and"
+msgstr "a"
+
+#: lib/Reservations/Pages/Utils/AdminBar.php:34
+#: lib/Reservations/Pages/Utils/AdminBar.php:74
+#: lib/Reservations/Taxonomies/City.php:24
+msgid "Edit City"
+msgstr "Upravit město"
+
+#: lib/Reservations/Pages/Utils/AdminBar.php:43
+#: lib/Reservations/Taxonomies/Gym.php:26
+msgid "Edit Gym"
+msgstr "Upravit tělocvičnu"
+
+#: lib/Reservations/Pages/Utils/AdminBar.php:53
+#: lib/Reservations/Taxonomies/TrainingGroup.php:26
+msgid "Edit Training Group"
+msgstr "Upravit skupinu tréninků"
+
+#: lib/Reservations/Pages/Utils/AdminBar.php:62
+#: lib/Reservations/PostTypes/Training.php:27
+msgid "Edit Training"
+msgstr "Upravit trénink"
+
+#: lib/Reservations/Pages/Utils/AdminBar.php:83
+#: lib/Reservations/PostTypes/Event.php:29
+msgid "Edit Event"
+msgstr "Upravit akci"
+
+#: lib/Reservations/Pages/Utils/PasswordProtection.php:59
+msgid "Incorrect password"
+msgstr "Špatné heslo"
+
+#: lib/Reservations/Pages/Utils/SubscriberAccount.php:83
+msgid "Please select a subscriber to delete."
+msgstr "Vyberte prosím dítě, které chcete smazat."
+
+#: lib/Reservations/PostTypes/Event.php:22
+msgctxt "post type general name"
+msgid "Events"
+msgstr "Akce"
+
+#: lib/Reservations/PostTypes/Event.php:23
+msgctxt "post type singular name"
+msgid "Event"
+msgstr "Akce"
+
+#: lib/Reservations/PostTypes/Event.php:24
+msgctxt "admin menu"
+msgid "Events"
+msgstr "Akce"
+
+#: lib/Reservations/PostTypes/Event.php:25
+msgctxt "add new on admin bar"
+msgid "Event"
+msgstr "Akce"
+
+#: lib/Reservations/PostTypes/Event.php:26
+msgctxt "event"
+msgid "Add New"
+msgstr "Vytvořit novou"
+
+#: lib/Reservations/PostTypes/Event.php:27
+msgid "Add New Event"
+msgstr "Vytvořit novou akci"
+
+#: lib/Reservations/PostTypes/Event.php:28
+msgid "New Event"
+msgstr "Nová akce"
+
+#: lib/Reservations/PostTypes/Event.php:30
+msgid "View Event"
+msgstr "Zobrazit akci"
+
+#: lib/Reservations/PostTypes/Event.php:31
+msgid "All Events"
+msgstr "Všechny akce"
+
+#: lib/Reservations/PostTypes/Event.php:32
+msgid "Search Events"
+msgstr "Prohledat akce"
+
+#: lib/Reservations/PostTypes/Event.php:33
+msgid "Parent Events:"
+msgstr "Nadřazené akce:"
+
+#: lib/Reservations/PostTypes/Event.php:34
+msgid "No events found."
+msgstr "Nebyly nalezeny žádné akce."
+
+#: lib/Reservations/PostTypes/Event.php:35
+msgid "No events found in Trash."
+msgstr "V koši nebyly nalezeny žádné akce."
+
+#: lib/Reservations/PostTypes/Event.php:103
+#: lib/Reservations/PostTypes/Training.php:139
+msgid "Time and Location"
+msgstr "Místo a čas"
+
+#: lib/Reservations/PostTypes/Event.php:104
+#: lib/Reservations/PostTypes/Training.php:140
+msgid "Instructors and Contact"
+msgstr "Instruktoři a kontaktní údaje"
+
+#: lib/Reservations/PostTypes/Event.php:105
+#: lib/Reservations/PostTypes/Training.php:141
+msgid "Additional Info"
+msgstr "Další informace"
+
+#: lib/Reservations/PostTypes/Event.php:133
+msgid "Date From"
+msgstr "Datum začátku"
+
+#: lib/Reservations/PostTypes/Event.php:137
+msgid "Start Time"
+msgstr "Čas začátku"
+
+#: lib/Reservations/PostTypes/Event.php:141
+msgid "Date To"
+msgstr "Datum konce"
+
+#: lib/Reservations/PostTypes/Event.php:145
+msgid "End Time"
+msgstr "Čas konce"
+
+#: lib/Reservations/PostTypes/Event.php:149
+#: lib/Reservations/Taxonomies/Gym.php:81
+#: lib/Reservations/Taxonomies/Gym.php:191
+msgid "City"
+msgstr "Město"
+
+#: lib/Reservations/PostTypes/Event.php:192
+#: lib/Reservations/PostTypes/Training.php:282
+msgid "Instructors"
+msgstr "Instruktoři"
+
+#: lib/Reservations/PostTypes/Event.php:193
+#: lib/Reservations/PostTypes/Event.php:195
+#: lib/Reservations/PostTypes/Training.php:283
+#: lib/Reservations/PostTypes/Training.php:285
+msgid "No instructors."
+msgstr "Žádní instruktoři."
+
+#: lib/Reservations/PostTypes/Event.php:202
+#: lib/Reservations/PostTypes/Training.php:292
+msgctxt "instructor"
+msgid "Add New:"
+msgstr "Přidat instruktora:"
+
+#: lib/Reservations/PostTypes/Event.php:213
+#: lib/Reservations/PostTypes/Training.php:303
+msgid "Select Responsible Instructor"
+msgstr "Vyberte zodpovědného instruktora"
+
+#: lib/Reservations/PostTypes/Event.php:221
+#: lib/Reservations/PostTypes/Training.php:311
+msgid "&mdash; or &mdash;"
+msgstr "&mdash; nebo &mdash;"
+
+#: lib/Reservations/PostTypes/Event.php:271
+msgid "Event Type"
+msgstr "Typ akce"
+
+#: lib/Reservations/PostTypes/Event.php:278
+msgid "Camp Type"
+msgstr "Typ campu"
+
+#: lib/Reservations/PostTypes/Event.php:285
+#: lib/Reservations/Taxonomies/Gym.php:208
+#: lib/Reservations/Taxonomies/TrainingGroup.php:88
+#: lib/Reservations/Taxonomies/TrainingGroup.php:270
+msgid "Capacity"
+msgstr "Kapacita"
+
+#: lib/Reservations/PostTypes/Event.php:290
+msgid "Enable subscription"
+msgstr "Povolit registraci"
+
+#: lib/Reservations/PostTypes/Event.php:291
+msgid "Enable access to local subscription form"
+msgstr "Povolí přístup k registračnímu formuláři"
+
+#: lib/Reservations/PostTypes/Event.php:294
+msgid "Custom Subscribe URL"
+msgstr "Vlastní adresa registračního tlačítka"
+
+#: lib/Reservations/PostTypes/Event.php:296
+msgid "This field is used only when the checkbox above is left unchecked"
+msgstr "Tato adresa se použije pouze, pokud je registrace zakázaná"
+
+#: lib/Reservations/PostTypes/Event.php:300
+#: lib/Reservations/PostTypes/Training.php:365
+msgid "Price"
+msgstr "Cena"
+
+#: lib/Reservations/PostTypes/Event.php:305
+msgid ""
+"Notification Email Advance &ndash; how many days before the start of this "
+"event should be the notification email sent"
+msgstr ""
+"Předstih odeslání upomínkového emailu &ndash; kolik dní před začátkem akce "
+"odeslat upomínkový email k platbě"
+
+#: lib/Reservations/PostTypes/Event.php:309
+#: lib/Reservations/Taxonomies/TrainingGroup.php:117
+#: lib/Reservations/Taxonomies/TrainingGroup.php:131
+#: lib/Reservations/Taxonomies/TrainingGroup.php:144
+#: lib/Reservations/Taxonomies/TrainingGroup.php:300
+#: lib/Reservations/Taxonomies/TrainingGroup.php:316
+#: lib/Reservations/Taxonomies/TrainingGroup.php:331
+msgid ""
+"Notification email for initial payment will be sent immediately after "
+"registration"
+msgstr ""
+"Upomínkový email pro první platbu bude odeslán ihned po vyplnění "
+"registračního formuláře"
+
+#: lib/Reservations/PostTypes/Event.php:314
+#: lib/Reservations/Taxonomies/Gym.php:399
+#: lib/Reservations/Taxonomies/TrainingGroup.php:155
+#: lib/Reservations/Taxonomies/TrainingGroup.php:337
+msgid "Attachment Sets"
+msgstr "Skupiny příloh"
+
+#: lib/Reservations/PostTypes/Event.php:320
+#: lib/Reservations/Taxonomies/Gym.php:455
+#: lib/Reservations/Taxonomies/TrainingGroup.php:184
+#: lib/Reservations/Taxonomies/TrainingGroup.php:373
+msgid "Access Password"
+msgstr "Přístupové heslo"
+
+#: lib/Reservations/PostTypes/Event.php:322
+#: lib/Reservations/Taxonomies/Gym.php:457
+#: lib/Reservations/Taxonomies/TrainingGroup.php:186
+#: lib/Reservations/Taxonomies/TrainingGroup.php:375
+msgid "If left empty, access will be unrestricted"
+msgstr "Pokud necháte prázdné, přístup nebude omezen"
+
+#: lib/Reservations/PostTypes/Event.php:326
+#: lib/Reservations/PostTypes/Training.php:370
+msgid "Description (optional)"
+msgstr "Popis (nepovinný)"
+
+#: lib/Reservations/PostTypes/Training.php:20
+msgctxt "post type general name"
+msgid "Trainings"
+msgstr "Tréninky"
+
+#: lib/Reservations/PostTypes/Training.php:21
+msgctxt "post type singular name"
+msgid "Training"
+msgstr "Trénink"
+
+#: lib/Reservations/PostTypes/Training.php:22
+msgctxt "admin menu"
+msgid "Trainings"
+msgstr "Tréninky"
+
+#: lib/Reservations/PostTypes/Training.php:23
+msgctxt "add new on admin bar"
+msgid "Training"
+msgstr "Trénink"
+
+#: lib/Reservations/PostTypes/Training.php:24
+msgctxt "training"
+msgid "Add New"
+msgstr "Vytvořit novou"
+
+#: lib/Reservations/PostTypes/Training.php:25
+msgid "Add New Training"
+msgstr "Vytvořit nový trénink"
+
+#: lib/Reservations/PostTypes/Training.php:26
+msgid "New Training"
+msgstr "Nový trénink"
+
+#: lib/Reservations/PostTypes/Training.php:28
+msgid "View Training"
+msgstr "Zobrazit trénink"
+
+#: lib/Reservations/PostTypes/Training.php:29
+msgid "All Trainings"
+msgstr "Všechny tréninky"
+
+#: lib/Reservations/PostTypes/Training.php:30
+msgid "Search Trainings"
+msgstr "Hledat tréninky"
+
+#: lib/Reservations/PostTypes/Training.php:31
+msgid "Parent Trainings:"
+msgstr "Nadřazený trínink:"
+
+#: lib/Reservations/PostTypes/Training.php:32
+msgid "No trainings found."
+msgstr "Nebyly nalezeny žádné tréninky."
+
+#: lib/Reservations/PostTypes/Training.php:33
+msgid "No trainings found in Trash."
+msgstr "V koši nebyly nalezeny žádné tréninky."
+
+#: lib/Reservations/PostTypes/Training.php:170
+msgid "Timeslots"
+msgstr "Časy"
+
+#: lib/Reservations/PostTypes/Training.php:174
+#: lib/Reservations/PostTypes/Training.php:227
+msgid "Day of week"
+msgstr "Den v týdnu"
+
+#: lib/Reservations/PostTypes/Training.php:175
+#: lib/Reservations/PostTypes/Training.php:233
+msgid "Start time"
+msgstr "Čas začátku"
+
+#: lib/Reservations/PostTypes/Training.php:176
+#: lib/Reservations/PostTypes/Training.php:237
+msgid "End time"
+msgstr "Čas konce"
+
+#: lib/Reservations/PostTypes/Training.php:220
+msgid "Add timeslot"
+msgstr "Přidat čas"
+
+#: lib/Reservations/PostTypes/Training.php:243
+msgid "Location"
+msgstr "Místo"
+
+#: lib/Reservations/PostTypes/Training.php:367
+msgid ""
+"Price of single training. If left empty, price from training group info will "
+"be used."
+msgstr ""
+"Cena jednoho tréninku. Pokud necháte prázdné, bude použita cena z nastavení "
+"skupiny tréninků."
+
+#: lib/Reservations/Taxonomies/City.php:20
+msgctxt "taxonomy general name"
+msgid "Cities"
+msgstr "Města"
+
+#: lib/Reservations/Taxonomies/City.php:21
+msgctxt "taxonomy singular name"
+msgid "City"
+msgstr "Město"
+
+#: lib/Reservations/Taxonomies/City.php:22
+msgid "Search Cities"
+msgstr "Hledat města"
+
+#: lib/Reservations/Taxonomies/City.php:23
+msgid "All Cities"
+msgstr "Všechna města"
+
+#: lib/Reservations/Taxonomies/City.php:25
+msgid "View City"
+msgstr "Zobrazit město"
+
+#: lib/Reservations/Taxonomies/City.php:26
+msgid "Update City"
+msgstr "Aktualizovat město"
+
+#: lib/Reservations/Taxonomies/City.php:27
+msgid "Add New City"
+msgstr "Vytvořit nové město"
+
+#: lib/Reservations/Taxonomies/City.php:28
+msgid "New City Name"
+msgstr "Název nového města"
+
+#: lib/Reservations/Taxonomies/City.php:29
+msgid "Separate cities with commas"
+msgstr "Více měst oddělte čárkami."
+
+#: lib/Reservations/Taxonomies/City.php:30
+msgid "Add or remove cities"
+msgstr "Přidat nebo odstranit města"
+
+#: lib/Reservations/Taxonomies/City.php:31
+msgid "Choose from the most used cities"
+msgstr "Vyberte si z nejpoužívanějších měst"
+
+#: lib/Reservations/Taxonomies/City.php:32
+msgid "No cities found"
+msgstr "Nebyla nalezena žádná města"
+
+#: lib/Reservations/Taxonomies/City.php:33
+msgid "No cities"
+msgstr "Žádná města"
+
+#: lib/Reservations/Taxonomies/City.php:74
+#: lib/Reservations/Taxonomies/City.php:91
+#: lib/Reservations/Taxonomies/Gym.php:88
+#: lib/Reservations/Taxonomies/Gym.php:198
+msgctxt "coordinates"
+msgid "Location"
+msgstr "Souřadnice"
+
+#: lib/Reservations/Taxonomies/City.php:75
+#: lib/Reservations/Taxonomies/City.php:92
+#: lib/Reservations/Taxonomies/Gym.php:89
+#: lib/Reservations/Taxonomies/Gym.php:199
+msgid "Latitude"
+msgstr "Zeměpisná šířka"
+
+#: lib/Reservations/Taxonomies/City.php:76
+#: lib/Reservations/Taxonomies/City.php:93
+#: lib/Reservations/Taxonomies/Gym.php:90
+#: lib/Reservations/Taxonomies/Gym.php:200
+msgid "Longitude"
+msgstr "Zeměpisná délka"
+
+#: lib/Reservations/Taxonomies/City.php:77
+#: lib/Reservations/Taxonomies/City.php:94
+#: lib/Reservations/Taxonomies/Gym.php:201
+msgid "If left empty, location will be determined from name"
+msgstr "Pokud necháte prázdné, souřadnice budou zjištěny z názvu"
+
+#: lib/Reservations/Taxonomies/City.php:150
+#, php-format
+msgid "An error occured during the deletion of city %s"
+msgstr "Nepodařilo se smazat město %s"
+
+#: lib/Reservations/Taxonomies/City.php:151
+#: lib/Reservations/Taxonomies/Gym.php:571
+#: lib/Reservations/Taxonomies/TrainingGroup.php:647
+msgid "The following are causes of this error:"
+msgstr "Příčiny této chyby jsou:"
+
+#: lib/Reservations/Taxonomies/City.php:154
+#, php-format
+msgid "This city is used by %d gym."
+msgid_plural "This city is used by %d gyms."
+msgstr[0] "Toto město obsahuje jednu tělocvičnu."
+msgstr[1] "Toto město obsahuje %d tělocvičny."
+msgstr[2] "Toto město obsahuje %d tělocvičen."
+
+#: lib/Reservations/Taxonomies/City.php:158
+#, php-format
+msgid "This city is used by %d event."
+msgid_plural "This city is used by %d events."
+msgstr[0] "Toto město obsahuje jednu akci."
+msgstr[1] "Toto město obsahuje %d akcí."
+msgstr[2] "Toto město obsahuje %d akcí."
+
+#: lib/Reservations/Taxonomies/Gym.php:22
+msgctxt "taxonomy general name"
+msgid "Gyms"
+msgstr "Tělocvičny"
+
+#: lib/Reservations/Taxonomies/Gym.php:23
+msgctxt "taxonomy singular name"
+msgid "Gym"
+msgstr "Tělocvična"
+
+#: lib/Reservations/Taxonomies/Gym.php:24
+msgid "Search Gyms"
+msgstr "Hledat tělocvičny"
+
+#: lib/Reservations/Taxonomies/Gym.php:25
+msgid "All Gyms"
+msgstr "Všechny tělocvičny"
+
+#: lib/Reservations/Taxonomies/Gym.php:27
+msgid "Update Gym"
+msgstr "Aktualizovat tělocvičnu"
+
+#: lib/Reservations/Taxonomies/Gym.php:28
+msgid "Add New Gym"
+msgstr "Vytvořit novou tělocvičnu"
+
+#: lib/Reservations/Taxonomies/Gym.php:29
+msgid "New Gym Name"
+msgstr "Název nové tělocvičny"
+
+#: lib/Reservations/Taxonomies/Gym.php:30
+msgid "Separate gyms with commas"
+msgstr "Více tělocvičen oddělte čárkami."
+
+#: lib/Reservations/Taxonomies/Gym.php:31
+msgid "Add or remove gyms"
+msgstr "Přidat nebo odstranit tělocvičny"
+
+#: lib/Reservations/Taxonomies/Gym.php:32
+msgid "Choose from the most used gyms"
+msgstr "Vyberte si z nejpoužívanějších tělocvičen"
+
+#: lib/Reservations/Taxonomies/Gym.php:33
+msgid "No gyms found"
+msgstr "Nebyly nalezeny žádné tělocvičny."
+
+#: lib/Reservations/Taxonomies/Gym.php:34
+msgid "No gyms"
+msgstr "Žádné tělocvičny"
+
+#: lib/Reservations/Taxonomies/Gym.php:91
+msgid "If left empty, location will be determined from address"
+msgstr "Pokud necháte prázdné, souřadnice budou zjištěny z adresy"
+
+#: lib/Reservations/Taxonomies/Gym.php:179
+#: lib/Reservations/Taxonomies/Gym.php:404
+#: lib/Reservations/Taxonomies/Gym.php:424 lib/Reservations/Utils/Html.php:140
+#: lib/Reservations/Utils/Html.php:269 lib/Reservations/Utils/Html.php:289
+#, php-format
+msgid "Attachment Set #%s"
+msgstr "Skupina příloh #%s"
+
+#: lib/Reservations/Taxonomies/Gym.php:205
+msgid "The following fields are read only and show old data."
+msgstr "Následující pole jsou pouze pro čtení a zobrazují stará data."
+
+#: lib/Reservations/Taxonomies/Gym.php:213
+#: lib/Reservations/Taxonomies/TrainingGroup.php:100
+#: lib/Reservations/Taxonomies/TrainingGroup.php:281
+#: lib/Reservations/Taxonomies/TrainingGroup.php:583
+msgid "Enable biannual subscription"
+msgstr "Povolit pololetní předplatné"
+
+#: lib/Reservations/Taxonomies/Gym.php:217
+#: lib/Reservations/Taxonomies/TrainingGroup.php:104
+#: lib/Reservations/Taxonomies/TrainingGroup.php:285
+#: lib/Reservations/Taxonomies/TrainingGroup.php:585
+msgid "Enable monthly subscription"
+msgstr "Povolit (více)měsíční předplatné"
+
+#: lib/Reservations/Taxonomies/Gym.php:221
+#: lib/Reservations/Taxonomies/TrainingGroup.php:123
+#: lib/Reservations/Taxonomies/TrainingGroup.php:307
+msgid "Price of biannual subscription"
+msgstr "Cena pololetního předplatného"
+
+#: lib/Reservations/Taxonomies/Gym.php:233
+#: lib/Reservations/Taxonomies/Gym.php:322 lib/Reservations/Utils/Html.php:170
+msgid "Notification Email Advance"
+msgstr "Předstih odeslání upomínkového emailu"
+
+#: lib/Reservations/Taxonomies/Gym.php:234
+#: lib/Reservations/Taxonomies/Gym.php:323 lib/Reservations/Utils/Html.php:171
+msgid "Notification Email Template"
+msgstr "Šablona upomínkového emailu"
+
+#: lib/Reservations/Taxonomies/Gym.php:235
+#: lib/Reservations/Taxonomies/Gym.php:324 lib/Reservations/Utils/Html.php:172
+msgid "Notification Email Attachment Set"
+msgstr "Skupina příloh upomínkového emailu"
+
+#: lib/Reservations/Taxonomies/Gym.php:236 lib/Reservations/Utils/Html.php:173
+msgid "Amount"
+msgstr "Částka"
+
+#: lib/Reservations/Taxonomies/Gym.php:237
+#: lib/Reservations/Taxonomies/Gym.php:326 lib/Reservations/Utils/Html.php:174
+msgid "Confirmation Email Template"
+msgstr "Šablona potvrzovacího emailu"
+
+#: lib/Reservations/Taxonomies/Gym.php:238
+#: lib/Reservations/Taxonomies/Gym.php:327 lib/Reservations/Utils/Html.php:175
+msgid "Confirmation Email Attachment Set"
+msgstr "Skupina příloh potvrzovacího emailu"
+
+#: lib/Reservations/Taxonomies/Gym.php:247
+#: lib/Reservations/Taxonomies/Gym.php:336 lib/Reservations/Utils/Html.php:199
+msgid "&mdash; Initial Payment &mdash;"
+msgstr "&mdash; Platba při registraci &mdash;"
+
+#: lib/Reservations/Taxonomies/Gym.php:301
+#: lib/Reservations/Taxonomies/Gym.php:390 lib/Reservations/Utils/Html.php:253
+msgid "Add payment"
+msgstr "Přidat platbu"
+
+#: lib/Reservations/Taxonomies/Gym.php:304
+#: lib/Reservations/Taxonomies/Gym.php:393
+#: lib/Reservations/Taxonomies/TrainingGroup.php:114
+#: lib/Reservations/Taxonomies/TrainingGroup.php:128
+#: lib/Reservations/Taxonomies/TrainingGroup.php:141
+#: lib/Reservations/Taxonomies/TrainingGroup.php:297
+#: lib/Reservations/Taxonomies/TrainingGroup.php:313
+#: lib/Reservations/Taxonomies/TrainingGroup.php:328
+msgid ""
+"Notification Email Advance &ndash; how many days after subscribing should "
+"the notification email be sent"
+msgstr ""
+"Předstih odeslání upomínkového emailu &ndash; kolik dní po registraci "
+"odeslat upomínkový email k platbě"
+
+#: lib/Reservations/Taxonomies/Gym.php:310
+#: lib/Reservations/Taxonomies/TrainingGroup.php:136
+#: lib/Reservations/Taxonomies/TrainingGroup.php:322
+msgid "Price of monthly subscription"
+msgstr "Cena (více)měsíčního předplatného"
+
+#: lib/Reservations/Taxonomies/Gym.php:325
+msgid "Monthly Amount"
+msgstr "Měsíční částka"
+
+#: lib/Reservations/Taxonomies/Gym.php:432 lib/Reservations/Utils/Html.php:297
+msgid "Add attachment set"
+msgstr "Přidat skupinu příloh"
+
+#: lib/Reservations/Taxonomies/Gym.php:436
+#: lib/Reservations/Taxonomies/TrainingGroup.php:149
+#: lib/Reservations/Taxonomies/TrainingGroup.php:344
+msgid "Default price of single training (no subscription)"
+msgstr "Výchozí cena jednoho tréninku (bez předplateného)"
+
+#: lib/Reservations/Taxonomies/Gym.php:442
+#: lib/Reservations/Taxonomies/TrainingGroup.php:161
+#: lib/Reservations/Taxonomies/TrainingGroup.php:350
+msgid "Start and end date of 1. term"
+msgstr "Začátek a konec 1. pololetí"
+
+#: lib/Reservations/Taxonomies/Gym.php:448
+#: lib/Reservations/Taxonomies/TrainingGroup.php:167
+#: lib/Reservations/Taxonomies/TrainingGroup.php:356
+msgid "Start and end date of 2. term"
+msgstr "Začátek a konec 2. pololetí"
+
+#: lib/Reservations/Taxonomies/Gym.php:570
+#, php-format
+msgid "An error occured during the deletion of gym %s"
+msgstr "Nepodařilo se smazat tělocvičnu %s"
+
+#: lib/Reservations/Taxonomies/Gym.php:574
+#, php-format
+msgid "This gym is used by %d training."
+msgid_plural "This gym is used by %d trainings."
+msgstr[0] "Tato tělocvična obsahuje %d trénink."
+msgstr[1] "Tato tělocvična obsahuje %d tréninky."
+msgstr[2] "Tato tělocvična obsahuje %d tréninků."
+
+#: lib/Reservations/Taxonomies/Training/Category.php:16
+msgctxt "taxonomy general name"
+msgid "Categories"
+msgstr "Kategorie"
+
+#: lib/Reservations/Taxonomies/Training/Category.php:17
+msgctxt "taxonomy singular name"
+msgid "Category"
+msgstr "Kategorie"
+
+#: lib/Reservations/Taxonomies/Training/Category.php:18
+msgid "Search Categories"
+msgstr "Hledat kategorie"
+
+#: lib/Reservations/Taxonomies/Training/Category.php:19
+msgid "All Categories"
+msgstr "Všechny kategorie"
+
+#: lib/Reservations/Taxonomies/Training/Category.php:20
+msgid "Edit Category"
+msgstr "Upravit kategorii"
+
+#: lib/Reservations/Taxonomies/Training/Category.php:21
+msgid "View Category"
+msgstr "Zobrazit kategorii"
+
+#: lib/Reservations/Taxonomies/Training/Category.php:22
+msgid "Update Category"
+msgstr "Aktualizovat kategorii"
+
+#: lib/Reservations/Taxonomies/Training/Category.php:23
+msgid "Add New Category"
+msgstr "Vytvořit novou kategorii"
+
+#: lib/Reservations/Taxonomies/Training/Category.php:24
+msgid "New Category Name"
+msgstr "Název nové kategorie"
+
+#: lib/Reservations/Taxonomies/Training/Category.php:25
+msgid "Separate categories with commas"
+msgstr "Více kategorií oddělte čárkami."
+
+#: lib/Reservations/Taxonomies/Training/Category.php:26
+msgid "Add or remove categories"
+msgstr "Přidat nebo odstranit kategorie"
+
+#: lib/Reservations/Taxonomies/Training/Category.php:27
+msgid "Choose from the most used categories"
+msgstr "Vyberte si z nejpoužívanějších kategorií"
+
+#: lib/Reservations/Taxonomies/Training/Category.php:28
+msgid "No categories found"
+msgstr "Nebyly nalezeny žádné kategorie."
+
+#: lib/Reservations/Taxonomies/Training/Category.php:29
+msgid "No categories"
+msgstr "Žádné kategorie"
+
+#: lib/Reservations/Taxonomies/TrainingGroup.php:22
+msgctxt "taxonomy general name"
+msgid "Training Groups"
+msgstr "Skupiny tréninků"
+
+#: lib/Reservations/Taxonomies/TrainingGroup.php:23
+msgctxt "taxonomy singular name"
+msgid "Training Group"
+msgstr "Skupina tréninků"
+
+#: lib/Reservations/Taxonomies/TrainingGroup.php:24
+msgid "Search Training Groups"
+msgstr "Hledat skupiny tréninků"
+
+#: lib/Reservations/Taxonomies/TrainingGroup.php:25
+msgid "All Training Groups"
+msgstr "Všechny skupiny tréninků"
+
+#: lib/Reservations/Taxonomies/TrainingGroup.php:27
+msgid "Update Training Group"
+msgstr "Upravit skupinu tréninků"
+
+#: lib/Reservations/Taxonomies/TrainingGroup.php:28
+msgid "Add New Training Group"
+msgstr "Vytvořit novou skupinu tréninků"
+
+#: lib/Reservations/Taxonomies/TrainingGroup.php:29
+msgid "New Training Group Name"
+msgstr "Nová skupina tréninků"
+
+#: lib/Reservations/Taxonomies/TrainingGroup.php:30
+msgid "Separate training groups with commas"
+msgstr "Více skupin tréninků oddělte čárkami."
+
+#: lib/Reservations/Taxonomies/TrainingGroup.php:31
+msgid "Add or remove training group"
+msgstr "Přidat nebo odstranit skupinu tréninků"
+
+#: lib/Reservations/Taxonomies/TrainingGroup.php:32
+msgid "Choose from the most used training groups"
+msgstr "Vyberte si z nejpoužívanějších skupin tréninků"
+
+#: lib/Reservations/Taxonomies/TrainingGroup.php:33
+msgid "No training groups found"
+msgstr "Nebyly nalezeny žádné skupiny tréninků."
+
+#: lib/Reservations/Taxonomies/TrainingGroup.php:34
+msgid "No training groups"
+msgstr "Nebyly nalezeny žádné skupiny tréninků."
+
+#: lib/Reservations/Taxonomies/TrainingGroup.php:95
+#: lib/Reservations/Taxonomies/TrainingGroup.php:276
+#: lib/Reservations/Taxonomies/TrainingGroup.php:579
+msgid "Enable annual subscription"
+msgstr "Povolit roční předplatné"
+
+#: lib/Reservations/Taxonomies/TrainingGroup.php:109
+#: lib/Reservations/Taxonomies/TrainingGroup.php:291
+msgid "Price of annual subscription"
+msgstr "Cena ročního předplatného"
+
+#: lib/Reservations/Taxonomies/TrainingGroup.php:175
+#: lib/Reservations/Taxonomies/TrainingGroup.php:364
+msgid "Start and end of year"
+msgstr "Začátek a konec roku"
+
+#: lib/Reservations/Taxonomies/TrainingGroup.php:179
+#: lib/Reservations/Taxonomies/TrainingGroup.php:368
+msgid "If left empty, earliest and latest date entered above will be used"
+msgstr ""
+"Pokud necháte prázdné, bude použito nejdřívější a nejpozdější datum uvedené "
+"výše."
+
+#: lib/Reservations/Taxonomies/TrainingGroup.php:580
+msgid "Disable annual subscription"
+msgstr "Zakázat roční předplatné"
+
+#: lib/Reservations/Taxonomies/TrainingGroup.php:584
+msgid "Disable biannual subscription"
+msgstr "Zakázat pololetní předplatné"
+
+#: lib/Reservations/Taxonomies/TrainingGroup.php:586
+msgid "Disable monthly subscription"
+msgstr "Zakázat (více)měsíční předplatné"
+
+#: lib/Reservations/Taxonomies/TrainingGroup.php:646
+#, php-format
+msgid "An error occured during the deletion of training group %s"
+msgstr "Nepodařilo se smazat skupinu tréninků %s"
+
+#: lib/Reservations/Taxonomies/TrainingGroup.php:649
+#, php-format
+msgid "This training group is used by %d subscription."
+msgid_plural "This training group is used by %d subscriptions."
+msgstr[0] "Tato tréninková skupina je používána jednou registrací."
+msgstr[1] "Tato tréninková skupina je používána %d registracemi."
+msgstr[2] "Tato tréninková skupina je používána %d registracemi."
+
+#: lib/Reservations/Taxonomies/TrainingGroup.php:653
+#, php-format
+msgid "This training group is used by %d training."
+msgid_plural "This training group is used by %d trainings."
+msgstr[0] "Tato tréninková skupina obsahuje jeden trénink."
+msgstr[1] "Tato tréninková skupina obsahuje %d tréninky."
+msgstr[2] "Tato tréninková skupina obsahuje %d tréninků."
+
+#: lib/Reservations/Taxonomies/TrainingGroup.php:678
+msgid "View trainings"
+msgstr "Zobrazit tréninky"
+
+#: lib/Reservations/Taxonomies/TrainingGroup.php:679
+msgid "View active subscriptions"
+msgstr "Zobrazit aktivní registrace"
+
+#: lib/Reservations/Utils.php:603
+#, php-format
+msgid "%s %d vacancy left"
+msgid_plural "%s %d vacancies left"
+msgstr[0] "%s %d volné místo"
+msgstr[1] "%s %d volná místa"
+msgstr[2] "%s %d volných míst"
+
+#: lib/Reservations/Utils.php:605
+#, php-format
+msgid "%s accepting replacements"
+msgstr "%s přijímáme náhradníky"
+
+#: lib/Reservations/Utils.php:607
+#, php-format
+msgid "%s occupied"
+msgstr "%s naplněn"
+
+#: lib/Reservations/Utils.php:616
+msgid "no term in progress"
+msgstr "neprobíhá žádné pololetí"
+
+#: lib/Reservations/Utils.php:622
+msgid "current term"
+msgstr "aktuální pololetí"
+
+#: lib/Reservations/Utils.php:627
+msgid "next term"
+msgstr "další pololetí"
+
+#: lib/Reservations/Utils.php:636
+#, php-format
+msgid "%d vacancy left"
+msgid_plural "%d vacancies left"
+msgstr[0] "%d volné místo"
+msgstr[1] "%d volná místa"
+msgstr[2] "%d volných míst"
+
+#: lib/Reservations/Utils.php:638
+msgid "accepting replacements"
+msgstr "přijímáme náhradníky"
+
+#: lib/Reservations/Utils.php:640
+msgid "occupied"
+msgstr "naplněn"
+
+#: lib/Reservations/Utils/Html.php:186
+msgid "(initial payment)"
+msgstr "(platba při registraci)"
+
+#: public/account-box.php:5
+msgid "Want to speed up registration? Log in!"
+msgstr "Chcete zrychlit registraci? Přihlaste se!"
+
+#: public/account-box.php:16
+msgid "Username or Email Address"
+msgstr "Uživatelské jméno nebo email"
+
+#: public/account-box.php:21
+msgid "Password"
+msgstr "Heslo"
+
+#: public/account-box.php:27
+msgid "Log In"
+msgstr "Přihlásit se"
+
+#: public/account-box.php:29
+msgid "Lost Password?"
+msgstr "Zapomněli jste heslo?"
+
+#: public/account-box.php:34
+msgid "Logout"
+msgstr "Odhlásit se"
+
+#: public/account-box.php:36
+#, php-format
+msgid "Logged in as %s"
+msgstr "Přihlášen jako %s"
+
+#: public/account-box.php:49
+msgid "Select Subscriber"
+msgstr "Dítě"
+
+#: public/account-box.php:51
+msgid "&mdash; New Subscriber &mdash;"
+msgstr "&mdash; Nové dítě &mdash;"
+
+#: public/account-box.php:58
+msgid "Load Information"
+msgstr "Načíst údaje"
+
+#: public/account-box.php:59
+msgid "Delete Subscriber"
+msgstr "Smazat dítě"
+
+#: public/account-box.php:63
+msgid ""
+"If your child has already registered in the past, select him in the box "
+"above and click the 'Load Information' button. Otherwise, select 'New "
+"Subscriber' and continue with the form."
+msgstr ""
+"Pokud jste již v minulosti Vaše dítě registrovali, vyberte jeho jméno v "
+"roletce výše a klepněte na 'Načíst údaje'. Jinak vyberte 'Nové dítě' a "
+"pokračujte s vyplňováním formuláře."
+
+#: public/confirmation-email.php:5
+msgid "Subscription confirmation and application form | L.E.A.D. Parkour"
+msgstr "Potvrzení o předplatném a přihláška | L.E.A.D. Parkour"
+
+#: public/events/confirmation-email.php:5
+msgid "Event deposit payment confirmation and application form"
+msgstr "Potvrzení o zaplacení zálohy na akci a přihláška | Improve Yourself"
+
+#: public/events/events.php:7
+msgid "Event list"
+msgstr "Vyberte si akci, na které se uvidíme"
+
+#: public/events/events.php:8
+#, php-format
+msgid "Events in %s"
+msgstr "Eventy ve městě %s"
+
+#: public/events/events.php:8 public/events/events.php:23
+#: public/events/subscribe-lead.php:2 public/events/subscribe.php:2
+#: public/subscribe-lead.php:3 public/subscribe.php:2 public/trainings.php:4
+#: public/trainings.php:10
+msgid "Back"
+msgstr "Zpět"
+
+#: public/events/events.php:28
+msgid "No events."
+msgstr "Nebyly nalezeny žádné eventy."
+
+#: public/events/events.php:38
+msgid "Where:"
+msgstr "Kde:"
+
+#: public/events/events.php:41
+msgid "When:"
+msgstr "Kdy:"
+
+#: public/events/events.php:44 public/trainings.php:32
+msgid "More"
+msgstr "Více"
+
+#: public/events/events.php:46 public/schedule.php:3 public/schedule.php:63
+#: public/training.php:4 public/trainings.php:34
+msgid "Subscribe"
+msgstr "Zaregistruj se!"
+
+#: public/events/events.php:48
+msgid "Coming Soon"
+msgstr "Registrace již brzy"
+
+#: public/events/events.php:59
+msgctxt "event frontend"
+msgid "Camp Type:"
+msgstr "Druh campu:"
+
+#: public/events/events.php:64
+msgid "Address:"
+msgstr "Adresa:"
+
+#: public/events/events.php:69
+msgctxt "event frontend"
+msgid "Time:"
+msgstr "Čas konání:"
+
+#: public/events/events.php:75
+msgctxt "event frontend"
+msgid "Price:"
+msgstr "Cena:"
+
+#: public/events/final-email.php:5
+msgid "Event pay up confirmation"
+msgstr "Potvrzení o zaplacení doplatku za akci | Improve Yourself"
+
+#: public/events/reminder-email.php:5
+msgid "Event pay up reminder"
+msgstr "Upomínka k zaplacení doplatku na akci | Improve Yourself"
+
+#: public/events/subscribe-lead.php:6 public/subscribe-lead.php:8
+msgid ""
+"If you don't receive the confirmation email after you submit the "
+"subscription form, please check your SPAM folder."
+msgstr ""
+"Po provedení registrace si, prosím, zkontrolujte Váš mail. A to i se složkou "
+"SPAM - občas nám to tam padá. Děkujeme."
+
+#: public/events/subscribe-lead.php:80 public/events/subscribe.php:37
+#: public/events/subscribe.php:100 public/subscribe-lead.php:41
+#: public/subscribe-lead.php:79 public/subscribe.php:37 public/subscribe.php:90
+msgctxt "subscribe"
+msgid "Address"
+msgstr "Bydliště"
+
+#: public/events/subscribe-lead.php:98 public/events/subscribe.php:210
+#: public/subscribe-lead.php:182 public/subscribe.php:200
+msgid "Privacy Policy"
+msgstr "Ochrana osobních údajů"
+
+#: public/events/subscribe-lead.php:100 public/events/subscribe.php:212
+#: public/subscribe-lead.php:184 public/subscribe.php:202
+msgid "I agree with the Privacy Policy"
+msgstr "Souhlasím s poučením o zpracování osobních údajů"
+
+#: public/events/subscribe-lead.php:102 public/events/subscribe.php:214
+#: public/subscribe-lead.php:186 public/subscribe.php:204
+msgid "Instruction on personal data processing"
+msgstr "Poučení o zpracování osobních údajů"
+
+#: public/events/subscribe-lead.php:106 public/events/subscribe.php:221
+msgid ""
+"This event is alrady full. You can register yourself as a replacement "
+"instead."
+msgstr "Tato akce je již obsazena. Můžete se ale zaregistrovat jako náhradník."
+
+#: public/events/subscribe-lead.php:109 public/events/subscribe.php:224
+#: public/subscribe-lead.php:199 public/subscribe.php:219
+msgid "Register as replacement"
+msgstr "Zapsat se jako náhradník"
+
+#: public/events/subscribe.php:122 public/subscribe.php:107
+msgid "required for statutory declaration"
+msgstr "povinná náležitost čestného prohlášení"
+
+#: public/events/subscribe.php:129
+msgid "Catering Options"
+msgstr "Možnosti stravování"
+
+#: public/events/subscribe.php:143
+msgid "menu is subject to change"
+msgstr ""
+
+#: public/events/subscribe.php:151
+msgid "Carpool Options"
+msgstr "Možnosti spolujízdy"
+
+#: public/events/subscribe.php:168
+msgid "Details for Organisers"
+msgstr "Informace pro organizátory"
+
+#: public/events/subscribe.php:192 public/subscribe-lead.php:95
+#: public/subscribe.php:112
+msgid "Save Details"
+msgstr "Uložit osobní údaje"
+
+#: public/events/subscribe.php:196 public/subscribe-lead.php:99
+#: public/subscribe.php:116
+msgid "Update stored subscriber details"
+msgstr "Aktualizovat uložené osobní údaje"
+
+#: public/events/subscribe.php:198 public/subscribe-lead.php:101
+#: public/subscribe.php:118
+msgid "Store details for future subscriptions"
+msgstr "Uložit osobní údaje pro další registrace"
+
+#: public/events/subscribe.php:204 public/subscribe-lead.php:107
+#: public/subscribe.php:124
+msgid ""
+"After you submit the form, an account will be created for you and its "
+"(generated) password will be sent to your email. In the future, you can use "
+"this account to fill this form more quickly."
+msgstr ""
+"Po odeslání formuláře Vám vytvoříme účet a heslo k němu zašleme na uvedený "
+"email. Díky tomuto účtu můžete v budoucnu registrační formulář vyplnit "
+"mnohem rychleji."
+
+#: public/events/subscribe.php:217 public/subscribe.php:207
+msgid "Instruction of the possibility to raise objections"
+msgstr ""
+
+#: public/events/subscribe.php:226
+msgctxt "event"
+msgid "Price includes transaction fee."
+msgstr "Cena obsahuje bankovní poplatek ve výši 1,6 %."
+
+#: public/password-form.php:15
+msgid ""
+"Subscription form is password protected. Please enter password to continue."
+msgstr ""
+"Registrační formulář je zabezpečen heslem. Zadejte prosím heslo pro "
+"pokračování."
+
+#: public/password-form.php:18
+msgid "Password:"
+msgstr "Heslo:"
+
+#: public/password-form.php:21
+msgid "Submit"
+msgstr "Odeslat"
+
+#: public/payment.php:15
+msgid "Subscriber name: "
+msgstr "Jméno dítěte: "
+
+#: public/payment.php:19
+msgid "Total amount: "
+msgstr "Celková částka: "
+
+#: public/payment.php:23
+msgid "Already paid: "
+msgstr "Již zaplaceno: "
+
+#: public/payment.php:29
+msgid "Payment Status"
+msgstr "Stav platby"
+
+#: public/payment.php:34
+#, php-format
+msgctxt "payment"
+msgid "Pay %s US$"
+msgstr "Zaplatit %s Kč"
+
+#: public/payment.php:35
+#, php-format
+msgid "Pay up %s US$"
+msgstr "Zaplatit doplatek %s Kč"
+
+#: public/schedule.php:19
+msgid "Monday"
+msgstr "Pondělí"
+
+#: public/schedule.php:20
+msgid "Tuesday"
+msgstr "Úterý"
+
+#: public/schedule.php:21
+msgid "Wednesday"
+msgstr "Středa"
+
+#: public/schedule.php:22
+msgid "Thursday"
+msgstr "Čtvrtek"
+
+#: public/schedule.php:23
+msgid "Friday"
+msgstr "Pátek"
+
+#: public/schedule.php:24
+msgid "Saturday"
+msgstr "Sobota"
+
+#: public/schedule.php:25
+msgid "Sunday"
+msgstr "Neděle"
+
+#: public/subscribe-lead.php:113 public/subscribe.php:130
+msgid "You are subscribing to these trainings:"
+msgstr "Registrace se vztahuje na tyto tréninky:"
+
+#: public/subscribe-lead.php:128 public/subscribe.php:145
+msgid "Subscription Tariff"
+msgstr "Druh předplatného"
+
+#: public/subscribe-lead.php:135 public/subscribe.php:152
+msgid "Annual Subscription"
+msgstr "Roční registrace"
+
+#: public/subscribe-lead.php:136 public/subscribe.php:153
+msgid "Subscription for the whole school year."
+msgstr "Registrace na celý školní rok."
+
+#: public/subscribe-lead.php:145 public/subscribe.php:162
+msgid "Biannual Subscription"
+msgstr "Pololetní registrace"
+
+#: public/subscribe-lead.php:146 public/subscribe.php:163
+msgid "Subscription for the whole school term."
+msgstr "Registrace na jedno pololetí."
+
+#: public/subscribe-lead.php:155 public/subscribe.php:172
+msgid "total: "
+msgstr "celkem: "
+
+#: public/subscribe-lead.php:161 public/subscribe.php:178
+msgid "Monthly Subscription"
+msgstr "Měsíční registrace"
+
+#: public/subscribe-lead.php:162 public/subscribe.php:179
+msgid "Number of months:"
+msgstr "Počet měsíců:"
+
+#: public/subscribe-lead.php:166 public/subscribe.php:183
+msgid "Subscription Period"
+msgstr "Období"
+
+#: public/subscribe-lead.php:173 public/subscribe.php:190
+msgid "Subscription End"
+msgstr "Konec registrace"
+
+#: public/subscribe-lead.php:177
+msgid "This gym is full on the selected date. Please try a different one."
+msgstr "Toto místo je v zadaném období již naplněno."
+
+#: public/subscribe-lead.php:178 public/subscribe.php:195
+msgid "Subscription start date must be in the future."
+msgstr "Počáteční datum předplatného musí být v budoucnosti."
+
+#: public/subscribe-lead.php:195 public/subscribe.php:216
+#, php-format
+msgctxt "trainings"
+msgid "Pay deposit %s US$ (total price: %s US$)"
+msgstr "Zaregistrovat se a zaplatit zálohu %s Kč (celková cena: %s Kč)"
+
+#: public/subscribe.php:108
+msgid "used for informing about trainings and related activities"
+msgstr ""
+"využíváme pro předávání informací týkajících se tréninků a dalších aktivit "
+"(soustředění, tábory, apod.)"
+
+#: public/subscribe.php:109
+msgid "used in case of emergencies"
+msgstr "využíváme v případě akutních stavů (např. zranění)"
+
+#: public/subscribe.php:194
+msgid "This training is full on the selected date. Please try a different one."
+msgstr "Tento trénink je v zadaném období již naplněn."
+
+#: public/subscribe.php:221
+msgid "Price includes transaction fee."
+msgstr "Součástí kurzovného je bankovní poplatek ve výši 1,6 %."
+
+#: public/thank-you-lead.php:8 public/thank-you.php:8
+msgid "Thank You!"
+msgstr "Děkujeme!"
+
+#: public/thank-you-lead.php:13 public/thank-you.php:13
+msgid "Your payment has been completed successfully."
+msgstr "Vaše platba byla úspěšně dokončena."
+
+#: public/thank-you-lead.php:14 public/thank-you.php:14
+#, php-format
+msgid "We've sent additional information to your email %s."
+msgstr "Na Váš email %s jsme právě odeslali další informace."
+
+#: public/thank-you-lead.php:16
+msgid "If you don't receive the email, please check your SPAM folder."
+msgstr ""
+"Pokud Vám mail nepřišel, zkontrolujte si, prosím, i složku SPAM - občas nám "
+"to tam padá. Děkujeme."
+
+#: public/thank-you-lead.php:20 public/thank-you.php:19
+msgid "Download Application Form"
+msgstr "Stáhnout přihlášku"
+
+#: public/thank-you-lead.php:24 public/thank-you.php:23
+msgid ""
+"You have been registered as replacement.<br> We'll notify you on your email "
+"when the gym becomes available."
+msgstr ""
+"Registrace proběhla úspěšně.<br> Jakmile se uvolní místo, budeme Vás "
+"informovat emailem."
+
+#: public/thank-you-lead.php:26 public/thank-you-lead.php:30
+msgctxt "future"
+msgid "If you don't receive the email, please check your SPAM folder."
+msgstr "Kontrolujte, prosím, i složku SPAM - občas nám to tam padá. Děkujeme."
+
+#: public/thank-you-lead.php:28 public/thank-you.php:25
+msgid ""
+"Your payment is being processed.<br> We'll notify you on your email when "
+"it's finished."
+msgstr ""
+"Čekáme na zpracování Vaší platby.<br> O úspěšném zaplacení Vás budeme "
+"informovat emailem."
+
+#: public/training.php:14
+msgctxt "training view"
+msgid "Price of single training: "
+msgstr "Cena za jednotlivý trénink: "
+
+#: public/training.php:14
+msgid "download application form"
+msgstr "stáhnout přihlášku"
+
+#: public/training.php:17
+msgid "Age group: "
+msgstr "Věková skupina: "
+
+#: public/training.php:21
+msgctxt "training view"
+msgid "Location"
+msgstr "Místo"
+
+#: public/training.php:23
+msgid "Open in Google Maps"
+msgstr "Otevřít v Google Maps"
+
+#: public/training.php:26
+msgctxt "training view"
+msgid "Instructors"
+msgstr "Trenéři"
+
+#: public/training.php:35
+msgctxt "training view"
+msgid "Contact"
+msgstr "Kontakt"
+
+#: public/trainings.php:3
+msgid "Select City"
+msgstr "Vyberte si město!"
+
+#: public/trainings.php:4
+msgid "Select Gym"
+msgstr "Vyberte si tělocvičnu!"
+
+#: public/trainings.php:9
+msgid "Gym List"
+msgstr "Seznam tělocvičen"
+
+#: public/trainings.php:10
+#, php-format
+msgid "Gyms in %s"
+msgstr "Tělocvičny ve městě %s"
+
+#: public/trainings.php:14
+msgid "No trainings."
+msgstr "Nebyly nalezeny žádné tělocvičny."
+
+#: public/trainings.php:27
+msgid "Age Groups:"
+msgstr "Věkové skupiny:"
+
+#~ msgid "Start (Arrival) Time"
+#~ msgstr "Čas začátku (odjezdu)"
+
+#, fuzzy
+#~| msgid "Age Group (lowercase)"
+#~ msgid "Name of the age group (all lowercase)"
+#~ msgstr "Věková skupina (malá písmena)"
+
+#~ msgctxt "biannual"
+#~ msgid " (recommended)"
+#~ msgstr " (výhodnější)"
+
+#~ msgid "All trainings in \"%s\" for this term."
+#~ msgstr "Všechny tréninky v \"%s\" v tomto pololetí."
+
+#~ msgid "/month"
+#~ msgstr "/měs."
+
+#~ msgid "No selected training groups."
+#~ msgstr "Žádné vybrané skupiny tréninků."
+
+#~ msgid "Exported locations"
+#~ msgstr "Exportovaná místa"
+
+#~ msgid "Overview for"
+#~ msgstr "Přehled pro"
+
+#~ msgid "Deposit status: "
+#~ msgstr "Stav zálohy: "
+
+#~ msgid "Payment status: "
+#~ msgstr "Stav doplatku: "
+
+#~ msgid ""
+#~ "Payment was already created. If you click OK, the old payment will be "
+#~ "cancelled and refunded. Don't use this option if you've already sent the "
+#~ "payment."
+#~ msgstr ""
+#~ "Transakce již byla vytvořena. Pokud kliknete na OK, stará platba bude "
+#~ "stornována a založí se platba nová. Této možnosti využijte pouze, pokud "
+#~ "jste ještě peníze neodeslali.\n"
+#~ "\n"
+#~ "NEKLIKEJTE NA OK, POKUD JSTE JIŽ PENÍZE ZA DOPLATEK ODESLALI!"
+
+#~ msgid "Subscription type (annual, biannual, monthly)"
+#~ msgstr "Typ předplatného (roční, pololetní, měsíční)"
+
+#~ msgctxt "subscriptions"
+#~ msgid "Location"
+#~ msgstr "Místo"
+
+#~ msgid "Monthly subscription is not enabled."
+#~ msgstr "(Více)měsíční předplatné není povoleno."
+
+#~ msgid "Biannual subscription is not enabled."
+#~ msgstr "Pololetní předplatné není povoleno."
+
+#~ msgid "free capacity: %d"
+#~ msgstr "volná místa: %d"
+
+#~ msgid " &ndash; subscribe as a replacement"
+#~ msgstr " (možnost přihlásit se jako náhradník)"
+
+#~ msgid "Deposit Paid (0 or 1)"
+#~ msgstr "Záloha zaplacena (0 nebo 1)"
+
+#~ msgctxt "attachment file name"
+#~ msgid "terms.pdf"
+#~ msgstr "Obchodní podmínky.pdf"
+
+#~ msgid "Web"
+#~ msgstr "Z webu"
+
+#~ msgctxt "event"
+#~ msgid "Date"
+#~ msgstr "Termín"
+
+#~ msgid "Better accessibility in case of need"
+#~ msgstr "Lepší dostupnost v případě potřeby"
+
+#~ msgid "Wanted to try new location"
+#~ msgstr "Loni jsem byl jinde, letos chci zkusit něco nového"
+
+#~ msgid "ADULTS"
+#~ msgstr "DOSPĚLÍ"
+
+#~ msgid "adults"
+#~ msgstr "dospělí"
+
+#~ msgid "MIX"
+#~ msgstr "MIX"
+
+#~ msgid "mix"
+#~ msgstr "mix"
+
+#~ msgid "beginners"
+#~ msgstr "začátečníci"
+
+#~ msgid "BEGINNERS"
+#~ msgstr "ZAČÁTEČNÍCI"
+
+#~ msgid "intermediate"
+#~ msgstr "středně pokročilí"
+
+#~ msgid "INTERMEDIATE"
+#~ msgstr "STŘEDNĚ POKROČILÍ"
+
+#~ msgid "advanced"
+#~ msgstr "pokročilí"
+
+#~ msgid "ADVANCED"
+#~ msgstr "POKROČILÍ"
+
+#~ msgid "junior"
+#~ msgstr "mladší"
+
+#~ msgid "JUNIOR"
+#~ msgstr "MLADŠÍ"
+
+#~ msgid "mature"
+#~ msgstr "starší"
+
+#~ msgid "MATURE"
+#~ msgstr "STARŠÍ"
+
+#~ msgctxt "book"
+#~ msgid "Add New"
+#~ msgstr "Vytvořit nový"
+
+#~ msgid "Price of monthly subscription (junior/mature)"
+#~ msgstr "Cena (více)měsíčního předplatného"
+
+#~ msgid "Price of biannual subscription (junior/mature)"
+#~ msgstr "Cena pololetního předplatného (mladší/starší)"
+
+#~ msgid "Default price of single training (no subscription) (junior/mature)"
+#~ msgstr "Výchozí cena jednoho tréninku (bez předplateného) (mladší/starší)"
+
+#~ msgid ""
+#~ "Your payment is being processed. We'll notify you on your email when it's "
+#~ "finished."
+#~ msgstr ""
+#~ "Vaše platba se zpracovává. O jejím dokončení Vás budeme informovat "
+#~ "emailem."
+
+#~ msgid "All trainings in \"%s\" for 6 months."
+#~ msgstr "Všechny tréninky v \"%s\" po dobu 6 měsíců."
+
+#~ msgctxt "frontend"
+#~ msgid "Price of single training: "
+#~ msgstr "Cena za jednotlivý trénink: "
+
+#~ msgid "Price of single training: "
+#~ msgstr "Cena jednoho tréninku: "
+
+#~ msgid "Every %s from %s to %s."
+#~ msgstr "Každé %s od %s do %s."
+
+#~ msgid "All gyms"
+#~ msgstr "Všechny tělocvičny"
+
+#~ msgid "L.E.A.D. Parkour biannual subscription."
+#~ msgstr "Pololetní předplatné L.E.A.D. Parkour"
+
+#~ msgid "Total: "
+#~ msgstr "Celkem: "
+
+#~ msgid "Subscriber Parent Details"
+#~ msgstr "Osobní údaje zákonného zástupce"
+
+#~ msgid "Category"
+#~ msgstr "Kategorie"
+
+#~ msgid "All categories"
+#~ msgstr "Všechny kategorie"
+
+#~ msgid "Add New:"
+#~ msgstr "Vytvořit nový:"
+
+#~ msgid "Add New"
+#~ msgstr "Vytvořit nový"
+
+#~ msgid "Cities"
+#~ msgstr "Města"
+
+#~ msgid "Gyms"
+#~ msgstr "Tělocvičny"
+
+#~ msgid "Categories"
+#~ msgstr "Kategorie"

@@ -1,0 +1,522 @@
+/* Global Styles */
+
+.res-wrap .delete, .res-delete {
+    color: #a00;
+}
+
+.checkbox-wrap label {
+    display: inline-block;
+    padding: 2px 0;
+    vertical-align: baseline;
+}
+
+.res-checkbox {
+    display: block;
+}
+.res-checkbox + .res-checkbox {
+    margin-top: 5px;
+}
+
+.res-empty {
+    list-style: none;
+    margin-left: 0;
+}
+
+.res-template {
+    display: none !important;
+}
+
+.res-pull-left {
+    float: left !important;
+}
+
+.res-pull-right {
+    float: right !important;
+}
+
+.res-clear {
+    clear: both;
+}
+
+.res-notice {
+    background: #fff;
+    border-left: 4px solid #fff;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+    margin: 5px 15px 2px;
+    padding: 1px 12px;
+}
+
+.res-notice.notice-success {
+    border-left-color: #46b450;
+}
+
+.res-notice.notice-error {
+    border-left-color: #dc3232;
+}
+
+.res-tabs {
+    border-bottom: 1px solid #aaa;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-flow: wrap-reverse;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+}
+.res-tabs li {
+    display: inline-block;
+    list-style: none;
+    border: 1px solid #ccc;
+    border-bottom: 1px solid #aaa;
+    padding: 0;
+    margin: 5px 4px -1px 0;
+    background-color: #e4e4e4;
+}
+.res-tabs li a {
+    padding: 4px 6px;
+    font-weight: normal;
+    line-height: 26px;
+    color: #333;
+    text-decoration: none;
+}
+
+.res-tabs .res-tab-active,
+.res-tabs .res-tab-active:hover {
+    border-top: 1px solid #aaa;
+    border-right: 1px solid #aaa;
+    border-left: 1px solid #aaa;
+    border-bottom: 1px solid #f5f5f5;
+    background-color: #f5f5f5;
+}
+
+.res-tabs .res-tab-active a {
+    color: #000;
+    font-weight: bold;
+}
+
+
+.res-wrap h3 {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+/* Taxonomies */
+
+.res-inline, #city-lat, #city-lng, #gym-lat, #gym-lng, #gym-price-biannual, #gym-price-biannual-2, #gym-price-monthly, #gym-price-monthly-2, #gym-price-single, #gym-price-single-2, #training-price-single {
+    max-width: 150px;
+    display: inline-block;
+}
+
+#gym-price-biannual-2, #gym-price-monthly-2, #gym-price-single-2 {
+    margin-left: 10px;
+}
+
+#gym-capacity {
+    max-width: 180px;
+}
+
+/* Training Edit */
+
+label[for=res-instructors-add] {
+    display: inline-block;
+}
+
+.res-instructors-wrap li {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+.res-instructors-wrap li.no-instructors {
+    list-style: none;
+    margin-left: 0;
+}
+
+.timeslots {
+    border-collapse: collapse;
+    width: auto;
+    margin-bottom: 10px;
+    font-size: inherit;
+}
+.timeslots tbody th {
+    text-align: left;
+}
+.timeslots tbody td {
+    text-align: center;
+}
+.timeslots td, .timeslots th {
+    padding: 4px 15px 4px 0;
+    border-bottom: 1px solid #ccc;
+}
+.timeslots input.res-inline {
+    width: 100px;
+}
+.timeslots thead th {
+    padding: 4px 15px 4px 0;
+}
+.timeslots tbody tr:last-of-type td, .timeslots tbody tr:last-of-type th {
+    border-bottom: 0;
+}
+
+/* Event Edit */
+
+.event-price {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: inherit;
+}
+.event-price tbody th {
+    text-align: left;
+}
+.event-price tbody td {
+    text-align: center;
+}
+.event-price td, .event-price th {
+    padding: 4px 15px 4px 0;
+    border-bottom: 1px solid #ccc;
+}
+.event-price input.res-inline {
+    width: 100px;
+}
+.event-price thead th {
+    padding: 4px 15px 4px 0;
+    font-weight: bold;
+    text-align: center;
+}
+.event-price tbody tr:last-of-type td, .event-price tbody tr:last-of-type th {
+    border-bottom: 0;
+}
+
+.event-payment-reminder {
+    margin-top: 5px;
+    vertical-align: middle;
+}
+
+.event-payment-reminder input.res-inline {
+    width: 75px;
+}
+
+.res-attachment-set {
+    border: 1px solid #ccc;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+}
+.res-attachment-set h4 {
+    margin: 0;
+    padding: 0;
+}
+
+.button.res-add-payment {
+    margin-bottom: 5px;
+}
+
+.gym-price-wrap .event-price {
+    display: none;
+}
+
+.gym-price-wrap .event-price.res-active {
+    display: table;
+}
+
+.gym-price-wrap .event-price td, .gym-price-wrap .event-price th {
+    padding: 4px 5px;
+    vertical-align: middle;
+}
+
+.gym-price-wrap .event-price .res-inline {
+    width: 75px;
+}
+
+.taxonomy-gym #edittag, .taxonomy-res_city #edittag, .taxonomy-res_tgroup #edittag {
+    max-width: none;
+}
+
+.taxonomy-gym #addtag, .taxonomy-res_city #addtag, .taxonomy-res_tgroup #addtag {
+    overflow: auto;
+}
+
+/* Subscriptions & Replacements */
+
+#res-subscriptions #start_date {
+    width: 12%;
+}
+
+#res-subscriptions #end_date {
+    width: 15%;
+}
+
+#res-subscriptions #contact {
+    width: 15%;
+}
+
+#res-subscriptions #age_group {
+    width: 8%;
+}
+
+#res-subscriptions #name {
+    width: 20%;
+}
+
+#res-subscriptions .bulkactions {
+    display: none;
+}
+
+#res-subscriptions .res-ok {
+    background: #b4e9b4;
+}
+
+#res-subscriptions .res-no-form {
+    background: #ffdda0;
+}
+
+#res-subscriptions .res-type-biannual {
+    background: #e0e0e0;
+    background: repeating-linear-gradient(
+        135deg,
+        #fff,
+        #fff 7.5px,
+        #eee 7.5px,
+        #eee 15px
+    );
+}
+#res-subscriptions .res-type-biannual.res-no-form {
+    background: #ffc966;
+    background: repeating-linear-gradient(
+        135deg,
+        #ffdda0,
+        #ffdda0 7.5px,
+        #ffc966 7.5px,
+        #ffc966 15px
+    );
+}
+#res-subscriptions .res-type-biannual.res-ok {
+    background: #9ce29c;
+    background: repeating-linear-gradient(
+        135deg,
+        #b4e9b4,
+        #b4e9b4 7.5px,
+        #9ce29c 7.5px,
+        #9ce29c 15px
+    );
+}
+
+#res-subscriptions .res-event-name {
+    margin: 0 0 5px 0;
+    font-weight: bold;
+}
+
+#res-subscriptions .res-payments {
+    margin-bottom: 5px;
+    border-collapse: collapse;
+}
+
+#res-subscriptions .res-payments th,
+#res-subscriptions .res-payments td {
+    padding: 5px 20px 5px 10px;
+    vertical-align: middle;
+    width: auto;
+    /*border-bottom: 1px solid #ccc;*/
+}
+
+#res-subscriptions .res-payments td:last-child {
+    padding-right: 10px;
+}
+
+#res-subscriptions .res-payments tbody tr:last-child td {
+    /*border-bottom: 0;*/
+}
+
+#res-subscriptions .res-payments .res-paid td {
+    background-color: #b4e9b4;
+}
+
+#res-subscriptions .res-sub-info-table {
+    margin: 0 50px 10px 0;
+    padding: 0;
+    text-align: left;
+}
+
+#res-subscriptions .res-sub-info-table th, #res-subscriptions .res-sub-info-table td {
+    padding: 2px 5px 2px 0;
+}
+
+#res-subscriptions .res-sub-info-table th {
+    width: auto;
+    padding-right: 15px;
+}
+
+#res-subscriptions .res-sub-info-table td p:first-child {
+    margin-top: 0;
+}
+
+#res-subscriptions .res-sub-info-table td p:last-child {
+    margin-bottom: 0;
+}
+
+#res-subscriptions .res-sub-info,
+#res-subscriptions .res-sub-info-table td p {
+    font-size: 14px;
+}
+
+#res-subscriptions .res-contact-info {
+    clear: both;
+}
+
+#res-subscriptions .edit-subscription-actions {
+    clear: both;
+}
+
+/* Export */
+
+label[for=locations-add], label[for=locations-add-city] {
+    width: 100px;
+    display: inline-block;
+}
+
+h2.res-exported-columns {
+    margin-bottom: 7px;
+}
+
+h2.res-exported-columns + p.description {
+    margin-bottom: 10px;
+}
+
+#res-export .submit {
+    margin-top: 5px;
+}
+
+#res-export .mt-5 {
+    margin-top: 5px;
+}
+
+.export-only-application-form-received-wrap {
+    margin-bottom: 5px;
+}
+
+.res-columns li {
+    cursor: move;
+}
+
+.res-columns li.no-columns {
+    cursor: auto;
+}
+
+/* Instructor Edit */
+
+#instructor-accessible-cities {
+    margin-top: 5px;
+}
+
+#instructor-accessible-cities li {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+#instructor-accessible-cities .res-empty {
+    list-style: none;
+    margin-left: 0;
+}
+
+/* Settings */
+
+.res-message-template {
+    border: 1px solid #ccc;
+    padding: 15px 15px;
+    margin-bottom: 10px;
+}
+.res-message-template h3 {
+    margin: 0;
+    padding: 0;
+}
+.res-message-template h3 .res-delete {
+    font-size: 0.77em;
+    vertical-align: middle;
+    position: relative;
+    display: inline-block;
+    top: -2px;
+}
+
+.res-message-templates .res-test-message {
+    border: 1px solid #ccc;
+    padding: 15px 15px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.res-message-templates .res-test-message h3 {
+    margin-top: 5px;
+}
+
+.res-available-variables h3 {
+    margin-bottom: 10px;
+}
+
+.res-available-variables h4 {
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+
+#res-settings input[name=res_term_advance] {
+    width: 165px;
+}
+
+.res-gopay-settings-tabs li a {
+    padding: 6px 8px;
+    line-height: 30px;
+}
+
+.res-gopay-settings {
+    display: none;
+    margin-left: 10px;
+}
+
+.res-gopay-settings.res-active {
+    display: table;
+}
+
+/* Training Groups */
+
+.res-tgroup-settings-container {
+    display: none;
+    border: 1px solid #ccc;
+    border-top: 0;
+    padding: 1px 10px 0;
+    margin-top: -1px;
+}
+
+.res-tgroup-settings-container.res-active {
+    display: block;
+}
+
+.res-sub-info .res-trainings-list {
+    list-style: disc;
+    padding: 0 0 5px 25px;
+    /*font-size: 1rem;*/
+}
+
+.res-sub-info .res-trainings-list ul {
+    list-style: circle;
+    padding: 5px 0 0 15px;
+}
+
+.res-sub-info .res-trainings-list .res-tl-gym-name, .res-sub-info .res-trainings-list strong {
+    font-weight: bold;
+}
+
+.subscription-payments-wrap table th, .subscription-payments-wrap strong {
+    font-weight: bold;
+}
+
+#res-merge-gym p {
+    /*font-size: 1rem;*/
+}
+
+#res-merge-gym strong {
+    font-weight: bold;
+}
+
+#res-merge-gym .res-trainings-list {
+    list-style: disc;
+    padding: 0 0 5px 25px;
+    /*font-size: 1rem;*/
+}
